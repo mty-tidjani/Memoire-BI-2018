@@ -1,0 +1,75 @@
+
+\documentclass[MSc,extensionUQAC,english,french]{ulthese}
+  \ifxetex\else \usepackage[utf8]{inputenc} \fi
+  \usepackage{hyperref}
+  
+  
+  
+  
+  \hypersetup{colorlinks,allcolors=ULlinkcolor}
+
+
+  
+
+
+  
+
+\begin{document}
+
+\frontmatter                    % pages liminaires
+
+\pagestitre                     % production des pages de titre
+\dedicace{Dédicace si désiré} 
+\cleardoublepage
+
+\chapter*{Remerciements}         % ne pas numéroter
+%\phantomsection\addcontentsline{toc}{chapter}{Remerciements} % inclure dans TdM
+
+Texte des remerciements en prose.
+
+
+\chapter*{Résumé}                      % ne pas numéroter
+\phantomsection\addcontentsline{toc}{chapter}{Résumé} % inclure dans TdM
+
+\begin{otherlanguage*}{french}
+  Texte du résumé en français.
+\end{otherlanguage*}
+
+
+                % résumé français
+\include{abstract}              % résumé anglais
+
+\cleardoublepage
+
+         % remerciements
+\chapter*{Avant-propos}         % ne pas numéroter
+\phantomsection\addcontentsline{toc}{chapter}{Avant-propos} % inclure dans TdM
+
+L'avant-propos est surtout nécessaire pour une thèse par article.
+           % avant-propos
+
+\cleardoublepage
+
+\tableofcontents                % production de la TdM
+\cleardoublepage
+
+\listoftables                   % production de la liste des tableaux
+\cleardoublepage
+
+\listoffigures                  % production de la liste des figures
+\cleardoublepage
+
+\mainmatter                     % corps du document
+
+\include{introduction}          % introduction
+\include{chapitre1}             % chapitre 1
+\include{chapitre2}             % chapitre 2, etc.
+\include{conclusion}            % conclusion
+
+\appendix                       % annexes le cas échéant
+
+\include{annexe}                % annexe A
+
+\bibliography{}                 % production de la bibliographie
+
+\end{document}

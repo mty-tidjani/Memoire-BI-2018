@@ -1,0 +1,4 @@
+\babel@toc {french}{}
+\contentsline {paragraph}{}{1}
+\contentsline {part}{I\hspace {1em}partie}{10}
+\contentsline {chapter}{\numberline {1}Belle a monna and centa}{11}
