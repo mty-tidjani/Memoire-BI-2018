@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.4)  14 JUN 2018 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.4)  26 JUN 2018 10:42
 entering extended mode
 **./memoire.tex
 (memoire.tex
@@ -1291,11 +1291,12 @@ Package: shorttoc 2002/08/20 v1.3 Short table of contents (JPFD)
 )) (memoire.aux (dedicaces/dedicaces.aux)
 (remerciements/remerciements.aux) (abreviations/abreviations.aux)
 (resume/resume.aux) (abstract/abstract.aux) (introduction/introduction.aux)
-(chapitre1/chapitre1.aux) (chapitre2/chapitre2.aux) (chapitre3/chapitre3.aux
+(chapitre1/chapitre1.aux
 
-LaTeX Warning: Label `modeles-cycle-vie' multiply defined.
+LaTeX Warning: Label `synthese-cout-salarie' multiply defined.
 
-) (chapitre4/chapitre4.aux) (conclusion/conclusion.aux) (annexes/annexes.aux))
+) (chapitre2/chapitre2.aux) (chapitre3/chapitre3.aux) (chapitre4/chapitre4.aux)
+(conclusion/conclusion.aux) (annexes/annexes.aux))
 \openout1 = `memoire.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1445,39 +1446,40 @@ LaTeX Info: Redefining \selectfont on input line 126.
 
 
 
-] (memoire.toc [3
-
-
-]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 23.
+] (memoire.toc
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 16.
 
 ("C:\Users\Tidjani\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 23.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 16.
 
 ("C:\Users\Tidjani\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 23.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 16.
 
 
 ("C:\Users\Tidjani\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 23.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 16.
 
 
 ("C:\Users\Tidjani\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 23.
+(Font)              <12> on input line 16.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 23.
+(Font)              <8> on input line 16.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 23.
-) [4]
+(Font)              <6> on input line 16.
+
+[3
+
+
+]) [4]
 \openout2 = `abreviations/abreviations.aux'.
 
  (abreviations/abreviations.tex) [5
@@ -1531,90 +1533,106 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 1.
 ("C:\Users\Tidjani\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-[]|\T1/lmr/m/n/12 Simple de com-pré-hen-sion et
- []
-
-
-Underfull \hbox (badness 1221) in paragraph at lines 35--35
-\T1/lmr/m/n/12 d'uti-li-sa-tion, fa-cile à ma-na-ger,
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 35--35
-\T1/lmr/m/n/12 fois, bonne do-cu-men-ta-tion des
- []
-
-
-Underfull \hbox (badness 3471) in paragraph at lines 53--53
-[]|\T1/lmr/m/n/12 Résultats pé-rio-diques, pos-si-bi-
- []
-
-
-Underfull \hbox (badness 6592) in paragraph at lines 54--56
-[]|\T1/lmr/m/n/12 Requiert d'im-por-tantes res-sources,
- []
-
-
-Underfull \hbox (badness 4181) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/12 RAD (Ra-pid
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/lmr/m/n/12 Ap-pli-ca-tion
- []
-
-
-Underfull \hbox (badness 1917) in paragraph at lines 60--62
-[]|\T1/lmr/m/n/12 Dépend de l'ha-bi-lité tech-nique de
- []
-
-
-Underfull \hbox (badness 2111) in paragraph at lines 60--62
-\T1/lmr/m/n/12 dèle, re-quiert des dé-ve-lop-peurs et
- []
-
-
-Underfull \hbox (badness 1215) in paragraph at lines 66--68
-[]|\T1/lmr/m/n/12 Pas fa-vo-rable à la ges-tion de dé-
- []
-
-
-Underfull \hbox (badness 1354) in paragraph at lines 66--68
-\T1/lmr/m/n/12 pen-dances com-plexes, risques élevé
- []
-
-
-Underfull \vbox (badness 10000) detected at line 70
- []
-
 [3
 
 
 ]
-<images/remuneration.png, id=172, 483.30562pt x 262.73157pt>
-File: images/remuneration.png Graphic file (type png)
-<use images/remuneration.png>
-Package pdftex.def Info: images/remuneration.png  used on input line 78.
-(pdftex.def)             Requested size: 410.81172pt x 223.32288pt.
-)
+Underfull \hbox (badness 2717) in paragraph at lines 54--54
+[]|\T1/lmr/m/n/12 par les don-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+[]\T1/lmr/m/n/12 Données chan-geantes
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 76--77
+[]\T1/lmr/m/n/12 Mises à jour et re-quêtes
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 88
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 27.11652pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4 <./images/remuneration.png>]
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
+
+ []
+
+[5]
+<images/DataWH.png, id=209, 896.59969pt x 525.46312pt>
+File: images/DataWH.png Graphic file (type png)
+<use images/DataWH.png>
+Package pdftex.def Info: images/DataWH.png  used on input line 119.
+(pdftex.def)             Requested size: 762.11334pt x 446.64577pt.
+
+Overfull \hbox (278.41647pt too wide) in paragraph at lines 119--120
+ [] 
+ []
+
+[6 <./images/DataWH.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+<images/remuneration.png, id=216, 483.30562pt x 262.73157pt>
+File: images/remuneration.png Graphic file (type png)
+<use images/remuneration.png>
+Package pdftex.def Info: images/remuneration.png  used on input line 156.
+(pdftex.def)             Requested size: 410.81172pt x 223.32288pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7]
+Overfull \hbox (0.6955pt too wide) in paragraph at lines 168--169
+[]\T1/lmr/m/n/12 Les tables de di-men-sion sont les tables qui rac-com-pagnent 
+une table de faits, elles contiennent
+ []
+
+File: images/remuneration.png Graphic file (type png)
+<use images/remuneration.png>
+Package pdftex.def Info: images/remuneration.png  used on input line 177.
+(pdftex.def)             Requested size: 410.81172pt x 223.32288pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [8 <./images/remuneration.png>] [9]
 \openout2 = `chapitre2/chapitre2.aux'.
 
  (chapitre2/chapitre2.tex
 Chapitre 2.
-) [5
+) [10
 
 
 
-] [6
+] [11
 
 
 ]
@@ -1681,26 +1699,26 @@ Underfull \hbox (badness 1354) in paragraph at lines 66--68
 Underfull \vbox (badness 10000) detected at line 70
  []
 
-[7
+[12
 
 
-]) [8]
+]) [13]
 \openout2 = `chapitre4/chapitre4.aux'.
 
  (chapitre4/chapitre4.tex
 Chapitre 4.
-) [9
+) [14
 
 
 
 ]
 \openout2 = `conclusion/conclusion.aux'.
 
- (conclusion/conclusion.tex) [10
+ (conclusion/conclusion.tex) [15
 
 
 
-] [11
+] [16
 
 
 
@@ -1714,42 +1732,70 @@ r (name{chapter.1}) has been already used, duplicate ignored
 l.1 \chapter{titre annexe}
                           
 Annexe A.
-[12
+pdfTeX warning (ext4): destination with the same identifier (name{section.1.1})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 \section{Presentation de INSBI}
+                                   pdfTeX warning (ext4): destination with the 
+same identifier (name{subsection.1.1.1}) has been already used, duplicate ignor
+ed
+<to be read again> 
+                   \relax 
+l.9  \subsection{MISSION}
+                         pdfTeX warning (ext4): destination with the same ident
+ifier (name{subsection.1.1.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.13  \subsection{PRESENTATION}
+                               pdfTeX warning (ext4): destination with the same
+ identifier (name{section.1.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 \section{DIAGRAMMES UML}
+                              [17
 
 
-]) [13] (memoire.toc [14
+]) [18] (memoire.toc [19
 
 
 ])
 \tf@toc=\write8
 \openout8 = `memoire.toc'.
 
- [15]
+ [20]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
- (memoire.aux (dedicaces/dedicaces.aux)
-(remerciements/remerciements.aux) (abreviations/abreviations.aux)
-(resume/resume.aux) (abstract/abstract.aux) (introduction/introduction.aux)
-(chapitre1/chapitre1.aux) (chapitre2/chapitre2.aux) (chapitre3/chapitre3.aux)
-(chapitre4/chapitre4.aux) (conclusion/conclusion.aux) (annexes/annexes.aux))
+ (memoire.aux
+(dedicaces/dedicaces.aux) (remerciements/remerciements.aux)
+(abreviations/abreviations.aux) (resume/resume.aux) (abstract/abstract.aux)
+(introduction/introduction.aux) (chapitre1/chapitre1.aux)
+(chapitre2/chapitre2.aux) (chapitre3/chapitre3.aux) (chapitre4/chapitre4.aux)
+(conclusion/conclusion.aux) (annexes/annexes.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
-Package rerunfilecheck Info: File `memoire.out' has not changed.
-(rerunfilecheck)             Checksum: 876DE78E596B762ACDAF5F503ED28D8E;1238.
 
+
+Package rerunfilecheck Warning: File `memoire.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `memoire.out':
+(rerunfilecheck)             Before: 5F1293E04A5CE50D54A37BC1DEB9A32B;1770
+(rerunfilecheck)             After:  589C2D505BCD8110D19B6EF98E281DE8;1972.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 138.
  ) 
 Here is how much of TeX's memory you used:
- 21852 strings out of 493305
- 398915 string characters out of 3128933
- 479888 words of memory out of 3000000
- 24779 multiletter control sequences out of 15000+200000
+ 21879 strings out of 493305
+ 399330 string characters out of 3128933
+ 479982 words of memory out of 3000000
+ 24793 multiletter control sequences out of 15000+200000
  59853 words of font info for 48 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,2186b,641s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,12n,65p,2186b,641s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.
 enc}<C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
 mbx12.pfb><C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
@@ -1758,9 +1804,9 @@ c/lm/lmcsc10.pfb><C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 /type1/public/lm/lmr17.pfb><C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/public/lm/lmri12.pfb><C:/Users/Tidjani/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/lm/lmss17.pfb>
-Output written on memoire.pdf (24 pages, 207775 bytes).
+Output written on memoire.pdf (29 pages, 658960 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 350 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 263 words of extra memory for PDF output out of 10000 (max. 10000000)
 

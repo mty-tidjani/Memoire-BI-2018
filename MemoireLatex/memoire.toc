@@ -12,17 +12,35 @@
 \contentsline {paragraph}{}{1}{chapter*.5}
 \contentsline {paragraph}{}{1}{chapter*.5}
 \contentsline {part}{I\hspace {1em}\IeC {\'E}tat de l\IeC {\textquoteright }art}{2}{part.1}
-\contentsline {chapter}{\numberline {1}titre}{3}{chapter.1}
-\contentsline {chapter}{\numberline {2}titre}{5}{chapter.2}
-\contentsline {part}{II\hspace {1em}Contribution}{6}{part.2}
-\contentsline {chapter}{\numberline {3}titre}{7}{chapter.3}
-\contentsline {chapter}{\numberline {4}titre}{9}{chapter.4}
-\contentsline {chapter}{Conclusion}{10}{chapter.4}
-\contentsline {chapter}{R\IeC {\'e}f\IeC {\'e}rences}{11}{chapter.4}
-\contentsline {chapter}{\numberline {A}titre annexe}{12}{chapter.1}
-\contentsline {section}{\numberline {A.1}Presentation de INSBI}{12}{section.1.1}
-\contentsline {subsubsection}{CREATION}{12}{section.1.1}
-\contentsline {subsection}{\numberline {A.1.1}MISSION}{12}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {A.1.2}PRESENTATION}{12}{subsection.1.1.2}
-\contentsline {section}{\numberline {A.2}DIAGRAMMES UML}{13}{section.1.2}
-\contentsline {chapter}{Table des mati\IeC {\`e}res}{15}{section.1.2}
+\contentsline {chapter}{\numberline {1}Synth\IeC {\`e}se Bibliographique}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Business Intelligence}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Introduction}{3}{subsection.1.1.1}
+\contentsline {paragraph}{}{3}{subsection.1.1.1}
+\contentsline {paragraph}{}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Les syst\IeC {\`e}mes d\IeC {\'e}cisionnels}{3}{subsection.1.1.2}
+\contentsline {paragraph}{}{3}{subsection.1.1.2}
+\contentsline {paragraph}{}{3}{subsection.1.1.2}
+\contentsline {paragraph}{}{4}{subsection.1.1.2}
+\contentsline {paragraph}{}{4}{subsection.1.1.2}
+\contentsline {paragraph}{}{4}{table.1.1}
+\contentsline {section}{\numberline {1.2}Le Data Warehouse}{5}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}D\IeC {\'e}finition}{5}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Historique}{5}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}ARCHITECTURE D\IeC {\textquoteright }UN DATA WAREHOUSE}{6}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}Mod\IeC {\'e}lisation des donn\IeC {\'e}es de l\IeC {\textquoteright }entrep\IeC {\^o}t}{7}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}La mod\IeC {\'e}lisation dimensionnelle et ses concepts}{7}{subsection.1.3.1}
+\contentsline {subsubsection}{Le concept des Faits}{8}{figure.1.2}
+\contentsline {subsubsection}{Le concept des Dimensions}{8}{figure.1.2}
+\contentsline {chapter}{\numberline {2}titre}{10}{chapter.2}
+\contentsline {part}{II\hspace {1em}Contribution}{11}{part.2}
+\contentsline {chapter}{\numberline {3}titre}{12}{chapter.3}
+\contentsline {chapter}{\numberline {4}titre}{14}{chapter.4}
+\contentsline {chapter}{Conclusion}{15}{chapter.4}
+\contentsline {chapter}{R\IeC {\'e}f\IeC {\'e}rences}{16}{chapter.4}
+\contentsline {chapter}{\numberline {A}titre annexe}{17}{chapter.1}
+\contentsline {section}{\numberline {A.1}Presentation de INSBI}{17}{section.1.1}
+\contentsline {subsubsection}{CREATION}{17}{section.1.1}
+\contentsline {subsection}{\numberline {A.1.1}MISSION}{17}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {A.1.2}PRESENTATION}{17}{subsection.1.1.2}
+\contentsline {section}{\numberline {A.2}DIAGRAMMES UML}{18}{section.1.2}
+\contentsline {chapter}{Table des mati\IeC {\`e}res}{20}{section.1.2}
