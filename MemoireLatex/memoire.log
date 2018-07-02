@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.4)  26 JUN 2018 10:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.5.4)  2 JUL 2018 00:08
 entering extended mode
 **./memoire.tex
 (memoire.tex
@@ -1288,14 +1288,41 @@ Package: minipage-marginpar 2008/04/07 v0.3 Randnotizen auch in Minipages (PE)
 ("C:\Users\Tidjani\AppData\Local\Programs\MiKTeX 2.9\tex\latex\shorttoc\shortto
 c.sty"
 Package: shorttoc 2002/08/20 v1.3 Short table of contents (JPFD)
-)) (memoire.aux (dedicaces/dedicaces.aux)
-(remerciements/remerciements.aux) (abreviations/abreviations.aux)
-(resume/resume.aux) (abstract/abstract.aux) (introduction/introduction.aux)
-(chapitre1/chapitre1.aux
+)
+("C:\Users\Tidjani\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\flafter.sty
+"
+Package: flafter 2017/04/11 v1.4a Standard LaTeX floats after reference (FMi)
+Applying: [2015/01/01] float order in 2-column on input line 49.
+Already applied: [0000/00/00] float order in 2-column on input line 151.
+)) (memoire.aux (dedicaces/dedicaces.aux) (remerciements/remerciements.aux)
+(abreviations/abreviations.aux) (resume/resume.aux) (abstract/abstract.aux)
+(introduction/introduction.aux) (chapitre1/chapitre1.aux
+
+LaTeX Warning: Label `slicing-image' multiply defined.
+
+
+LaTeX Warning: Label `Transactionel vs descisionel' multiply defined.
+
+
+LaTeX Warning: Label `Transactionel vs descisionel' multiply defined.
+
 
 LaTeX Warning: Label `synthese-cout-salarie' multiply defined.
 
-) (chapitre2/chapitre2.aux) (chapitre3/chapitre3.aux) (chapitre4/chapitre4.aux)
+) (chapitre2/chapitre2.aux
+
+LaTeX Warning: Label `use_case_summary' multiply defined.
+
+
+LaTeX Warning: Label `classe_diagramme' multiply defined.
+
+
+LaTeX Warning: Label `classe_diagramme' multiply defined.
+
+
+LaTeX Warning: Label `classe_diagramme' multiply defined.
+
+) (chapitre3/chapitre3.aux) (chapitre4/chapitre4.aux)
 (conclusion/conclusion.aux) (annexes/annexes.aux))
 \openout1 = `memoire.aux'.
 
@@ -1482,7 +1509,12 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ]) [4]
 \openout2 = `abreviations/abreviations.aux'.
 
- (abreviations/abreviations.tex) [5
+ (abreviations/abreviations.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 2--20
+
+ []
+
+[5
 
 
 ] (memoire.lof)
@@ -1496,8 +1528,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 \tf@lot=\write7
 \openout7 = `memoire.lot'.
 
-
-[7
+ [7
 
 ]
 \openout2 = `resume/resume.aux'.
@@ -1508,15 +1539,15 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ]
 \openout2 = `abstract/abstract.aux'.
 
- (abstract/abstract.tex) [9
+
+(abstract/abstract.tex) [9
 
 
 
 ]
 \openout2 = `introduction/introduction.aux'.
 
-
-(introduction/introduction.tex) [1
+ (introduction/introduction.tex) [1
 
 
 
@@ -1527,7 +1558,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ]
 \openout2 = `chapitre1/chapitre1.aux'.
 
- (chapitre1/chapitre1.tex
+
+(chapitre1/chapitre1.tex
 Chapitre 1.
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 1.
 ("C:\Users\Tidjani\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
@@ -1561,39 +1593,300 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--109
-
- []
-
-[5]
-<images/DataWH.png, id=209, 896.59969pt x 525.46312pt>
+[4] [5]
+<images/DataWH.png, id=412, 469.755pt x 274.77657pt>
 File: images/DataWH.png Graphic file (type png)
 <use images/DataWH.png>
-Package pdftex.def Info: images/DataWH.png  used on input line 119.
-(pdftex.def)             Requested size: 762.11334pt x 446.64577pt.
+Package pdftex.def Info: images/DataWH.png  used on input line 115.
+(pdftex.def)             Requested size: 399.29364pt x 233.56117pt.
 
-Overfull \hbox (278.41647pt too wide) in paragraph at lines 119--120
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 125--129
+
  []
 
 [6 <./images/DataWH.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 129--133
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+<images/cube.png, id=419, 469.755pt x 231.11343pt>
+File: images/cube.png Graphic file (type png)
+<use images/cube.png>
+Package pdftex.def Info: images/cube.png  used on input line 152.
+(pdftex.def)             Requested size: 399.29364pt x 196.44734pt.
+[7 <./images/cube.png>]
+Overfull \hbox (0.6955pt too wide) in paragraph at lines 164--165
+[]\T1/lmr/m/n/12 Les tables de di-men-sion sont les tables qui rac-com-pagnent 
+une table de faits, elles contiennent
+ []
+
+<images/etoile.png, id=425, 489.32813pt x 314.67563pt>
+File: images/etoile.png Graphic file (type png)
+<use images/etoile.png>
+Package pdftex.def Info: images/etoile.png  used on input line 172.
+(pdftex.def)             Requested size: 415.93086pt x 267.47554pt.
+[8 <./images/etoile.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+<images/slicing.png, id=431, 469.755pt x 243.15843pt>
+File: images/slicing.png Graphic file (type png)
+<use images/slicing.png>
+Package pdftex.def Info: images/slicing.png  used on input line 196.
+(pdftex.def)             Requested size: 399.29364pt x 206.68564pt.
+<images/dicing.png, id=432, 469.755pt x 234.1247pt>
+File: images/dicing.png Graphic file (type png)
+<use images/dicing.png>
+Package pdftex.def Info: images/dicing.png  used on input line 206.
+(pdftex.def)             Requested size: 399.29364pt x 199.00691pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 216.
+
+("C:\Users\Tidjani\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 216.
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--220
+
+ []
+
+[9 <./images/slicing.png>]
+<images/besion_analyse.png, id=439, 469.755pt x 198.7425pt>
+File: images/besion_analyse.png Graphic file (type png)
+<use images/besion_analyse.png>
+Package pdftex.def Info: images/besion_analyse.png  used on input line 235.
+(pdftex.def)             Requested size: 399.29364pt x 168.93192pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (25.19998pt too wide) in alignment at lines 242--254
+ [] [] 
+ []
+
+
+Overfull \hbox (25.19998pt too wide) in alignment at lines 254--256
+ [] [] 
+ []
+
+
+Overfull \hbox (25.19998pt too wide) in alignment at lines 256--272
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 272
+ []
+
+[10 <./images/dicing.png>]
+Overfull \hbox (25.19998pt too wide) in alignment at lines 280--292
+ [] [] 
+ []
+
+
+Overfull \hbox (25.19998pt too wide) in alignment at lines 292--294
+ [] [] 
+ []
+
+
+Overfull \hbox (25.19998pt too wide) in alignment at lines 294--309
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 309
+ []
+
+LaTeX Font Info:    Font shape `OMS/lmr/bx/n' in size <12> not available
+(Font)              Font shape `OMS/lmsy/b/n' tried instead on input line 313.
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
+
+ []
+
+
+Overfull \vbox (231.10884pt too high) has occurred while \output is active []
+
+
+[11 <./images/besion_analyse.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 325--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 331--334
+
+ []
+
+<images/mixte.png, id=453, 489.32813pt x 220.57407pt>
+File: images/mixte.png Graphic file (type png)
+<use images/mixte.png>
+Package pdftex.def Info: images/mixte.png  used on input line 343.
+(pdftex.def)             Requested size: 415.93086pt x 187.48883pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--356
+
+ []
+
+[12] [13 <./images/mixte.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--383
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--393
+
+ []
+
+[14]) [15]
+\openout2 = `chapitre2/chapitre2.aux'.
+
+ (chapitre2/chapitre2.tex
+Chapitre 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+[16
+
+
+
+]
+<images/form_use_case.png, id=476, 427.5975pt x 426.84468pt>
+File: images/form_use_case.png Graphic file (type png)
+<use images/form_use_case.png>
+Package pdftex.def Info: images/form_use_case.png  used on input line 38.
+(pdftex.def)             Requested size: 406.21532pt x 405.50015pt.
+ [17] [18 <./images/form_use_case.png>]
+<images/diag_use_case2.jpg, id=486, 526.96875pt x 694.84593pt>
+File: images/diag_use_case2.jpg Graphic file (type jpg)
+<use images/diag_use_case2.jpg>
+Package pdftex.def Info: images/diag_use_case2.jpg  used on input line 50.
+(pdftex.def)             Requested size: 447.92554pt x 590.62183pt.
+<images/diag_use_case1.jpg, id=487, 526.96875pt x 521.69907pt>
+File: images/diag_use_case1.jpg Graphic file (type jpg)
+<use images/diag_use_case1.jpg>
+Package pdftex.def Info: images/diag_use_case1.jpg  used on input line 58.
+(pdftex.def)             Requested size: 447.92554pt x 443.44629pt.
+ [19
+
+ <./images/diag_use_case2.jpg>]
+[20 <./images/diag_use_case1.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
+
+ []
+
+<images/form_classe.png, id=496, 415.5525pt x 459.96844pt>
+File: images/form_classe.png Graphic file (type png)
+<use images/form_classe.png>
+Package pdftex.def Info: images/form_classe.png  used on input line 71.
+(pdftex.def)             Requested size: 394.77263pt x 436.96754pt.
+[21
+
+ <./images/form_classe.png>]
+<images/diag_classe.jpg, id=502, 1678.27pt x 1681.28125pt>
+File: images/diag_classe.jpg Graphic file (type jpg)
+<use images/diag_classe.jpg>
+Package pdftex.def Info: images/diag_classe.jpg  used on input line 81.
+(pdftex.def)             Requested size: 503.4849pt x 504.38828pt.
+
+Overfull \hbox (19.78802pt too wide) in paragraph at lines 81--82
+ [] 
+ []
+
+[22
+
+ <./images/diag_classe.jpg>]
+<images/diag_erd.png, id=508, 2893.81125pt x 2689.04625pt>
+File: images/diag_erd.png Graphic file (type png)
+<use images/diag_erd.png>
+Package pdftex.def Info: images/diag_erd.png  used on input line 93.
+(pdftex.def)             Requested size: 491.9414pt x 457.13182pt.
+
+Overfull \hbox (8.24454pt too wide) in paragraph at lines 93--94
+ [] 
+ []
+
+[23
+
+ <./images/diag_erd.png>]
+<images/inscription.png, id=513, 913.16156pt x 420.82219pt>
+File: images/inscription.png Graphic file (type png)
+<use images/inscription.png>
+Package pdftex.def Info: images/inscription.png  used on input line 110.
+(pdftex.def)             Requested size: 502.24042pt x 231.45291pt.
+
+Overfull \hbox (18.54355pt too wide) in paragraph at lines 110--111
+ [] 
+ []
+
+[24
+
+ <./images/inscription.png>]
+<images/reservation.png, id=519, 767.86874pt x 435.87843pt>
+File: images/reservation.png Graphic file (type png)
+<use images/reservation.png>
+Package pdftex.def Info: images/reservation.png  used on input line 121.
+(pdftex.def)             Requested size: 422.32912pt x 239.73387pt.
+ [25
+
+ <./images/reservation.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
@@ -1602,37 +1895,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
-<images/remuneration.png, id=216, 483.30562pt x 262.73157pt>
-File: images/remuneration.png Graphic file (type png)
-<use images/remuneration.png>
-Package pdftex.def Info: images/remuneration.png  used on input line 156.
-(pdftex.def)             Requested size: 410.81172pt x 223.32288pt.
+[26
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+]
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
-[7]
-Overfull \hbox (0.6955pt too wide) in paragraph at lines 168--169
-[]\T1/lmr/m/n/12 Les tables de di-men-sion sont les tables qui rac-com-pagnent 
-une table de faits, elles contiennent
  []
 
-File: images/remuneration.png Graphic file (type png)
-<use images/remuneration.png>
-Package pdftex.def Info: images/remuneration.png  used on input line 177.
-(pdftex.def)             Requested size: 410.81172pt x 223.32288pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
-) [8 <./images/remuneration.png>] [9]
-\openout2 = `chapitre2/chapitre2.aux'.
+ []
 
- (chapitre2/chapitre2.tex
-Chapitre 2.
-) [10
+) [27
 
-
-
-] [11
+] [28
 
 
 ]
@@ -1640,87 +1917,29 @@ Chapitre 2.
 
  (chapitre3/chapitre3.tex
 Chapitre 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
-[]|\T1/lmr/m/n/12 Simple de com-pré-hen-sion et
- []
+) [29
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 35--35
-\T1/lmr/m/n/12 d'uti-li-sa-tion, fa-cile à ma-na-ger,
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 35--35
-\T1/lmr/m/n/12 fois, bonne do-cu-men-ta-tion des
- []
-
-
-Underfull \hbox (badness 3471) in paragraph at lines 53--53
-[]|\T1/lmr/m/n/12 Résultats pé-rio-diques, pos-si-bi-
- []
-
-
-Underfull \hbox (badness 6592) in paragraph at lines 54--56
-[]|\T1/lmr/m/n/12 Requiert d'im-por-tantes res-sources,
- []
-
-
-Underfull \hbox (badness 4181) in paragraph at lines 58--58
-[]|\T1/lmr/m/n/12 RAD (Ra-pid
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-\T1/lmr/m/n/12 Ap-pli-ca-tion
- []
-
-
-Underfull \hbox (badness 1917) in paragraph at lines 60--62
-[]|\T1/lmr/m/n/12 Dépend de l'ha-bi-lité tech-nique de
- []
-
-
-Underfull \hbox (badness 2111) in paragraph at lines 60--62
-\T1/lmr/m/n/12 dèle, re-quiert des dé-ve-lop-peurs et
- []
-
-
-Underfull \hbox (badness 1215) in paragraph at lines 66--68
-[]|\T1/lmr/m/n/12 Pas fa-vo-rable à la ges-tion de dé-
- []
-
-
-Underfull \hbox (badness 1354) in paragraph at lines 66--68
-\T1/lmr/m/n/12 pen-dances com-plexes, risques élevé
- []
-
-
-Underfull \vbox (badness 10000) detected at line 70
- []
-
-[12
-
-
-]) [13]
+]
 \openout2 = `chapitre4/chapitre4.aux'.
 
  (chapitre4/chapitre4.tex
 Chapitre 4.
-) [14
+) [30
 
 
 
 ]
 \openout2 = `conclusion/conclusion.aux'.
 
- (conclusion/conclusion.tex) [15
+ (conclusion/conclusion.tex) [31
 
 
 
-] [16
+] [32
 
 
+] [33
 
 ]
 \openout2 = `annexes/annexes.aux'.
@@ -1753,60 +1972,57 @@ l.13  \subsection{PRESENTATION}
 <to be read again> 
                    \relax 
 l.25 \section{DIAGRAMMES UML}
-                              [17
+                              [34
 
 
-]) [18] (memoire.toc [19
+]) [35] (memoire.toc [36
 
 
-])
+] [37])
 \tf@toc=\write8
 \openout8 = `memoire.toc'.
 
- [20]
+ [38]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
- (memoire.aux
-(dedicaces/dedicaces.aux) (remerciements/remerciements.aux)
+
+(memoire.aux (dedicaces/dedicaces.aux) (remerciements/remerciements.aux)
 (abreviations/abreviations.aux) (resume/resume.aux) (abstract/abstract.aux)
 (introduction/introduction.aux) (chapitre1/chapitre1.aux)
 (chapitre2/chapitre2.aux) (chapitre3/chapitre3.aux) (chapitre4/chapitre4.aux)
 (conclusion/conclusion.aux) (annexes/annexes.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
+Package rerunfilecheck Info: File `memoire.out' has not changed.
+(rerunfilecheck)             Checksum: 158ED06BB38203108ABA3483D9A86832;4981.
 
-
-Package rerunfilecheck Warning: File `memoire.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `memoire.out':
-(rerunfilecheck)             Before: 5F1293E04A5CE50D54A37BC1DEB9A32B;1770
-(rerunfilecheck)             After:  589C2D505BCD8110D19B6EF98E281DE8;1972.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 138.
  ) 
 Here is how much of TeX's memory you used:
- 21879 strings out of 493305
- 399330 string characters out of 3128933
- 479982 words of memory out of 3000000
- 24793 multiletter control sequences out of 15000+200000
- 59853 words of font info for 48 fonts, out of 3000000 for 9000
+ 22084 strings out of 493305
+ 402910 string characters out of 3128933
+ 475610 words of memory out of 3000000
+ 24909 multiletter control sequences out of 15000+200000
+ 60154 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,65p,2186b,641s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.
-enc}<C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
-mbx12.pfb><C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/lm/lmcsc10.pfb><C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/lm/lmr12.pfb><C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/lm/lmr17.pfb><C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/lm/lmri12.pfb><C:/Users/Tidjani/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/lm/lmss17.pfb>
-Output written on memoire.pdf (29 pages, 658960 bytes).
+ 57i,12n,65p,2186b,643s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mat
+hsy.enc}{C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
+lm-ec.enc}<C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmbsy10.pfb><C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/lm/lmbx12.pfb><C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/lm/lmcsc10.pfb><C:/Users/Tidjani/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/Tidjani/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Users/Tidjani/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/Tidjani/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Users/Tidjani/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+Output written on memoire.pdf (47 pages, 2310267 bytes).
 PDF statistics:
- 350 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 263 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 717 PDF objects out of 1000 (max. 8388607)
+ 126 named destinations out of 1000 (max. 500000)
+ 640 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -99,14 +99,10 @@
 « Le Data Warehouse est une collection de données orientées sujet, intégrées, non volatiles et évolutives dans le temps, organisées pour le support d’un processus d’aide à la décision. »
 
 Les paragraphes suivants illustrent les caractéristiques citées dans la définition d’Inmon.\\
-
 \textbf{Orienté sujet}: le Data Warehouse est organisé autour des sujets majeurs de l’entreprise, contrairement à l’approche transactionnelle utilisée dans les systèmes opérationnels, qui sont conçus autour d’applications et de fonctions telles que : cartes bancaires, solvabilité client…, les Data Warehouse sont organisés autour de sujets majeurs de l’entreprise tels que : clientèle, ventes, produits…. Cette organisation affecte forcément la conception et l’implémentation des données contenues dans le Data Warehouse. Le contenu en données et en relations entre elles diffère aussi. Dans un système opérationnel, les données sont essentiellement destinées à satisfaire un processus fonctionnel et obéit à des règles de gestion, alors que celles d’un Data Warehouse sont destinées à un processus analytique.\\
-
 \textbf{Intégrée }: le Data Warehouse va intégrer des données en provenance de différentes sources. Cela nécessite la gestion de toute incohérence.\\
-
 \textbf{Evolutives dans le temps} : Dans un système décisionnel il est important de conserver les différentes valeurs d’une donnée, cela permet les comparaisons et le suivi de l’évolution des valeurs dans le temps, alors que dans un système opérationnel la valeur d’une donnée est simplement mise à jour. Dans un Data Warehouse chaque valeur est associée à un moment
 « Every key structure in the data warehouse contains - implicitly or explicitly -an element of time » [Inmon, 2000].\\
-
 \textbf{Non volatiles} : c’est ce qui est, en quelque sorte la conséquence de l’historisation décrite précédemment. Une donnée dans un environnement opérationnel peut être mise à jour ou supprimée, de telles opérations n’existent pas dans un environnement Data Warehouse. Organisées pour le support d’un processus d’aide à la décision : Les données du Data Warehouse sont organisées de manière à permettre l’exécution des processus d’aide à la décision (Reporting, Data Mining…).
 
  \subsection{Historique}
@@ -153,42 +149,270 @@ Les derniers éléments de la figure font partie de la phase d’exploitation du
  	
  \begin{figure}[h]
 	\begin{center}
-		\includegraphics[scale=0.85]{images/remuneration.png}
-		\caption{Considération d’un sujet d’analyse comme un cube à plusieurs dimensions.}
+		\includegraphics[scale=0.85]{images/cube.png}
+		\caption{A cube with three dimensions.[ Rainardi 2008].}
 		\label{Cube-dimensionnel}
 	\end{center}
 \end{figure}
  
  
  \subsubsection{Le concept des Faits}
- 	 Une table de faits est la table centrale d’un modèle dimensionnel, où les mesures de performances sont stockées. Une ligne d’une table de faits correspond à une mesure. Ces mesures sont généralement des valeurs numériques, additives ; cependant des mesures textuelles peuvent exister mais sont rares. Le concepteur doit faire son possible pour faire des mesures textuelles des dimensions, car elles peuvent êtres corrélées efficacement avec les autres attributs textuels de dimensions.
+ 	 Une table de faits est la table centrale d’un modèle dimensionnel, où les mesures de performances sont stockées. Une ligne d'une table de faits correspond à une mesure. Ces mesures sont généralement des valeurs numériques, additives ; cependant des mesures textuelles peuvent exister mais sont rares. Le concepteur doit faire son possible pour faire des mesures textuelles des dimensions, car elles peuvent êtres corrélées efficacement avec les autres attributs textuels de dimensions.
  
  \subsubsection{Le concept des Dimensions}
  
-  Les tables de dimension sont les tables qui raccompagnent une table de faits, elles contiennent les descriptions textuelles de l’activité. Une table de dimension est constituée de nombreuses colonnes qui décrivent une ligne. C’est grâce à cette table que l’entrepôt de données est compréhensible et utilisable; elles permettent des analyses en tranches et en dés. Une dimension est généralement constituée : d’une clé artificielle, une clé naturelle et des attributs.
+  Les tables de dimension sont les tables qui raccompagnent une table de faits, elles contiennent les descriptions textuelles de l'activité. Une table de dimension est constituée de nombreuses colonnes qui décrivent une ligne. C'est grâce à cette table que l'entrepôt de données est compréhensible et utilisable; elles permettent des analyses en tranches et en dés. Une dimension est généralement constituée : d'une clé artificielle, une clé naturelle et des attributs.
   
+ \subsection{Différents modèles de la modélisation dimensionnelle}
   
+  \textbf{Modèle en étoile} : comme indiqué précédemment, ce modèle se présente comme une étoile dont le centre n’est autre que la table des faits et les branches sont les tables de dimension. La force de ce type de modélisation est sa lisibilité et sa performance. 
   
-  
-  
-  
-\begin{figure}[h]
+  \begin{figure}[h]
 	\begin{center}
-		\includegraphics[scale=0.85]{images/remuneration.png}
-		\caption{Schéma de synthèse sur le coût d'un salarié}
+		\includegraphics[scale=0.85]{images/etoile.png}
+		\caption{Exemple d'un modèle en étoile « Dimensional star schema for campaign results data mart »[ Rainardi 2008]}
+		\label{model-en-etoile}
+	\end{center}
+\end{figure}
+\textbf{Modèle en flocon} : identique au modèle en étoile, sauf que ses branches sont éclatées en hiérarchies. Cette modélisation est généralement justifiée par l'économie d'espace de stockage, cependant elle peut s’avérer moins compréhensible pour l'utilisateur final, et très couteux en termes de performances.
+
+\textbf{Modèle en constellation} : Ce n'est rien d'autre que plusieurs modèles en étoile liés entre eux par des dimensions communes.
+
+  
+  \subsection{La navigation dans les données}
+  
+  \paragraph{}
+  Une fois que le serveur OLAP a construit le cube multidimensionnel « ou simulé ce cube selon l’architecture du serveur », plusieurs opérations sont possibles sur ce dernier offrant ainsi la possibilité de naviguer dans les données qui le constituent. Ces opérations de navigation « Data Surfing » doivent être, d’une part, assez complexes pour adresser l’ensemble des données et, d’autre part, assez simples afin de permettre à l’utilisateur de circuler de manière libre et intuitive dans le modèle dimensionnel.\\
+  
+Afin de répondre à ces attentes, un ensemble de mécanismes est exploité, permettant une navigation par rapport à la dimension et par rapport à la granularité d’une dimension.
+
+  \subsubsection{Slice \& Dice}
+  Le « Slicing » et le « Dicing » sont des techniques qui offrent la possibilité de faire des tranches « trancher » dans les données par rapport à des filtres de dimension bien précis, se classant de fait comme des opérations liées à la structure « se font sur les dimensions ». La différence entre eux se manifestent dans le fait que :\\
+  
+  \textit{Slicing is the process of retrieving a block of data from a cube by filtering on one dimension [Rainardi 2008].} 
+   
+   \begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.85]{images/slicing.png}
+		\caption{Slicing}
+		\label{slicing-image}
+	\end{center}
+   \end{figure}
+
+\textit{Dicing is the process of retrieving a block of data from a cube by filtering on all dimensions [Rainardi 2008].}
+  
+    \begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.85]{images/dicing.png}
+		\caption{Dicing}
+		\label{slicing-image}
+	\end{center}
+   \end{figure}
+   
+   
+   
+\section{Démarche de Construction d’un Data Warehouse}   
+   Plusieurs chercheurs ou équipes de recherche ont essayé de proposer des démarches pour la réalisation d’un projet Data Warehouse, ces démarches se croisent essentiellement dans les étapes suivantes :\\
+•	Modélisation et conception du Data Warehouse,\\
+•	Alimentation du Data Warehouse,\\
+•	Mise en œuvre du Data Warehouse,\\
+•	Administration et maintenance du Data Warehouse,\\
+
+\subsection{Modélisation et conception du Data Warehouse}
+
+Les deux approches les plus connues dans la conception des Data Warehouse sont :\\
+•	L’approche basée sur les besoins d’analyse,\\
+•	L’approche basée sur les sources de données,\\
+Aucune des deux approches citées n’est ni parfaite, ni applicable à tous les cas. Toutes deux doivent être étudiées pour choisir celle qui s’adapte le mieux à notre cas. Quel que soit l’approche adoptée pour la conception d’un Data Warehouse, la définition de celui-là reste la même. En étant un support d’aide à la décision, le Data Warehouse se base sur une architecture dimensionnelle.
+
+
+ \subsubsection{Approche « Besoins d’analyse »}
+ 
+  Le contenu du Data Warehouse sera déterminé selon les besoins de l’utilisateur final. Cette approche est aussi appelée « approche descendante » (Top-Down Approach) et est illustrée par R. Kimball grâce à son cycle de vie dimensionnel comme suit :
+  
+  \begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.85]{images/besion_analyse.png}
+		\caption{illustration de l’approche « Besoins d’analyse » grâce au cycle de vie dimensionnel de Kimball [Kimball, 2004].}
 		\label{synthese-cout-salarie}
 	\end{center}
 \end{figure}
 
- 
+\begin{flushleft}
+	\begin{longtable}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+		\caption{Avantages et inconvénients de l'approche « Besoins d’analyse »} 
+		\label{Transactionel vs descisionel}
+		\\
+		
+		
+		\hline 
+		\textbf{Avantages} &
+		\textbf{Inconvénients}
+		\\
+		
+		\hline
+		\endhead
+		\hline
+		\endfoot
+		\hline
+		 
+		\begin{description}
+		 \item Aucun risque de concevoir une solution obsolète avant d’être opérationnelle
+		 \end{description}
+		  &
+		 
+	   \begin{description}
+		\item  Pas de prise en compte de l’évolution des besoins de l’utilisateur.
+		\item Nécessite une modification de la structure du Data Warehouse en cas de nouveau besoin
+		\item Négligence du système opérationnel
+		\item Difficulté de déterminer les besoins des utilisateurs
+		\end{description}
+		\\ 	
+		\hline 
+	\end{longtable} 
+\end{flushleft}
 
 
+\subsubsection{Approche « Source de données »}
+Le contenu du Data Warehouse est déterminé selon les sources de données. Cette approche est appelée: Approche ascendante (Bottom-up Approach).
+
+  \begin{flushleft}
+	\begin{longtable}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+		\caption{Avantages et inconvénients de l'approche « Besoins d’analyse »} 
+		\label{Transactionel vs descisionel}
+		\\
+		
+		
+		\hline 
+		\textbf{Avantages} &
+		\textbf{Inconvénients}
+		\\
+		
+		\hline
+		\endhead
+		\hline
+		\endfoot
+		\hline
+		 
+		\begin{description}
+		 \item Meilleure prise en charge de l’évolution des besoins
+		 \end{description}
+		  &
+		 
+	   \begin{description}
+		\item  Risque de concevoir une solution obsolète avant qu’elle soit opérationnelle
+		\item Evolution du schéma des données source
+		\item Complexité de source de données
+		\end{description}
+		\\ 	
+		\hline 
+	\end{longtable} 
+\end{flushleft}
 
 
+\paragraph{•}
+Inmon considère que l’utilisateur ne peut jamais déterminer ses besoins dès le départ, « Donnez-moi ce que je vous demande, et je vous direz ce dont j’ai vraiment besoin », il considère que les besoins sont en constante évolution.
+
+\subsubsection{Approche mixte}
+\paragraph{}
+Une combinaison des deux approches appelée hybride ou mixte peut s’avérer efficace. Elle prend en considération les sources de données et les besoins des utilisateurs.\\
+
+Cette approche consiste à construire des schémas dimensionnels à partir des structures des données du système opérationnel, et les valider par rapport aux besoins analytiques. Cette approche cumule les avantages et quelques inconvénients des deux approches déjà citées, telles que la complexité des sources de données et la difficulté quant à la détermination des besoins analytiques.
 
 
+\subsection{Les phases de l'alimentation « E.T.L »}
+
+Les phases du processus E.T.L. représentent la mécanique d’alimentation du Data
+Warehouse. Ainsi elles se déroulent comme suit :\\
+\textbf{a) L’extraction des données}\\
+
+\textit{« L’extraction est la première étape du processus d’apport de données à l’entrepôt de données. Extraire, cela veut dire lire et interpréter les données sources et les copier dans la zone de préparation en vue de manipulations ultérieures. »} [Kimball, 2005]. Elle consiste en :\\
+
+ •	Cibler les données,\\
+ •	Appliquer les filtres nécessaires,\\
+ •	Définir la fréquence de chargement\\
+
+Lors du chargement des données, il faut extraire les nouvelles données ainsi que les changements intervenus sur ces données. Pour cela, il existe trois stratégies de capture de changement :\\
+• Colonnes d’audit : la colonne d’audit, est une colonne qui enregistre la date d’insertion ou du dernier changement d’un enregistrement. Cette colonne est mise à jour soit par des triggers ou par les applications opérationnelles, d’où la nécessité de vérifier leur fiabilité.\\
+\quad •	Capture des logs : certains outils ETL utilisent les fichiers logs des systèmes sources afin de détecter les changements (généralement logs du SGBD). En plus de l’absence de cette fonctionnalité sur certains outils ETL du marché, l’effacement des fichiers logs engendre la perte de toute information relative aux transactions.\\
+\qquad • Comparaison avec le dernier chargement : le processus d’extraction sauvegarde des copies des chargements antérieurs, de manière à procéder à une comparaison lors de chaque nouvelle extraction. Il est impossible de rater un nouvel enregistrement avec cette méthode.
 
 
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[scale=0.85]{images/mixte.png}
+		\caption{Illustration de l’approche mixte.}
+		\label{synthese-cout-salarie}
+	\end{center}
+\end{figure}
 
+\textbf{b) La transformation des données}
+
+La transformation est la seconde phase du processus. Cette étape, qui du reste est très importante, assure en réalité plusieurs tâches qui garantissent la fiabilité des données et leurs qualités. Ces tâches sont :\\
+•	Consolidation des données.\\
+•	Correction des données et élimination de toute ambiguïté.\\
+•	Élimination des données redondantes.\\
+•	Compléter et renseigner les valeurs manquantes. Cette opération se solde par la production d’informations dignes d’intérêt pour l’entreprise et de et sont donc prêtes à être entreposées.\\
+
+\textbf{c) Le chargement des données}
+
+C’est la dernière phase de l’alimentation d’un entrepôt de données, le chargement est une étape indispensable. Elle reste toutefois très délicate et exige une certaine connaissance des structures du système de gestion de la base de données (tables et index) afin d’optimiser au mieux le processus.
+
+\subsubsection{Politiques de l’alimentation}
+\paragraph{}
+Le processus de l’alimentation peut se faire de différentes manières. Le choix de la politique de chargement dépend des sources : disponibilité et accessibilité. Ces politiques
+sont8 :\\
+\textbf{• Push} : dans cette méthode, la logique de chargement est dans le système de production. Il " pousse " les données vers la zone de préparation quand il en a l'occasion. L'inconvénient est que si le système est occupé, il ne poussera jamais les données.\\
+\textbf{• Pull} : contrairement de la méthode précédente, le Pull " tire " les données de la source vers la zone de préparation. L'inconvénient de cette méthode est qu'elle peut surcharger le système s'il est en cours d'utilisation.\\
+\textbf{• Push-pull} : c'est la combinaison des deux méthodes. La source prépare les données à envoyer et indique à la zone de préparation qu'elle est prête. La zone de préparation va alors récupérer les données.
+Les Processus ETL doit respecter les critères suivants\\
+\textbf{Sûr }: assure l’acheminement des données et leur livraison.
+Rapide : la quantité de données manipulées peut causer des lenteurs. Le processus d’alimentation doit palier à ce problème et assurer le chargement du Data Warehouse dans des délais acceptables.\\
+\textbf{Correctif }: le processus d’alimentation doit apporter les correctifs nécessaires pour améliorer la qualité des données.\\
+\textbf{Transparent} : le processus de l’ETL doit être transparent afin d’améliorer la qualité des données.
+
+
+\subsection{Mise en œuvre du Data Warehouse}
+  C’est la dernière étape d’un projet Data Warehouse, soit son exploitation. L’exploitation du Data Warehouse se fait par le biais d’un ensemble d’outils analytiques développés autour du Data Warehouse. Donc cette étape nécessite l’achèvement du développement, ou de la mise en place, de ces outils qui peuvent accomplir les fonctions suivantes:\\
+  
+ \textbf{a. Requêtage ad-hoc}\\ 
+  Le requêtage ad-hoc reste très fréquent dans ce type de projet. En effet, les utilisateurs de l’entrepôt de données, et spécialement les analystes, seront amenés à interagir avec le DW via des requêtes ad-hoc dans le but de faire les analyses requises par leurs métiers et, d’élaborer aussi, des rapports et des tableaux de bords spécifiques. L’accès à ce genre de service peut se faire via différentes méthodes et outils. Cependant, les spécialistes en la matière préconisent de laisser la possibilité à l’utilisateur de choisir les outils qui lui paraissent les plus adéquats.
+  
+ \textbf{ b. Reporting :}\\
+Destiné essentiellement à la production de rapports et de tableaux de bord, \textit{« il est la présentation périodique de rapports sur les activités et résultats d'une organisation, d'une unité de travail ou du responsable d'une fonction, destinée à en informer ceux chargés de les superviser en interne ou en externe, ou tout simplement concernés par ces activités ou résultants »[ http://fr.wikipedia.org/wiki/Reporting].}\\
+
+Ces outils de Reporting ne sont pas, à proprement parler, des instruments d'aide à la décision, mais, lorsqu’ils sont utilisés de manière appropriée, ils peuvent fournir une précieuse vue d’ensemble.\\
+
+Les rapports sont alors crées par le biais d’outils de Reporting qui permettent de leur donner un format prédéterminé. Les requêtes sont constituées lors de l’élaboration des rapports qui seront ensuite diffusés périodiquement en automatique ou ponctuellement à la demande.\\
+
+
+\textbf{d. Tableaux de bord :}\\
+Les tableaux de bord sont un outil de pilotage qui donne une vision sur l’évolution d’un processus, afin de permettre aux responsables de mettre en place des actions correctives.\\
+\textit{« Le tableau de bord est un ensemble d’indicateurs peu nombreux conçus pour permettre aux gestionnaires de prendre connaissance de l’état et de l’évolution des systèmes qu’ils pilotent et d’identifier les tendances qui les influenceront sur un horizon cohérent avec la nature de leurs fonctions » [Bouquin, 2003]}.\\
+Cette forme de restitution a la particularité de se limiter à l’essentiel, c'est-à-dire la mise en évidence de l’état d’un indicateur par rapport à un objectif, tout en adoptant une représentation graphique de l’information.\\
+
+\textbf{e. Data Mining :}\\
+Au sens littéral du terme, le Data Mining signifie le forage de données. Le but de ce forage est d’extraire de la matière brute qui, dans notre cas, représente de nouvelles connaissances. L’idée de départ veut qu’il existe dans toute entreprise des connaissances utiles, cachées sous des gisements de données. Le Data Mining permet donc, grâce à un certain nombre de techniques, de découvrir ces connaissances en faisant apparaître des corrélations entre ces données.\\
+Le Data Warehouse constituera alors la première source de données sur laquelle s’exécutera le processus de découverte de connaissances. Dans la majeure partie du temps, l’entrepôt de données représente un pré requis indispensable à toute fouille de données.\\
+Le recours à ce genre de méthode est de plus en plus utilisé dans les entreprises modernes. Les applications et outils implémentant ces solutions sont rarement développés en interne. En effet, les entreprises préfèrent se reposer sur des valeurs sûres du marché afin d’exploiter au plus vite les données en leur possession.
+
+ \subsection{Maintenance et expansion}
+ La mise en service du Data Warehouse ne signifie pas la fin du projet, car un projet
+Data Warehouse nécessite un suivi constant compte tenu des besoins d’optimisation de performance et ou d’expansion. Il est donc nécessaire d’investir dans les domaines suivants:\\
+\textbf{Support} : assurer un support aux utilisateurs pour leur faire apprécier l’utilisation de l’entrepôt de données. En outre, la relation directe avec les utilisateurs permet de détecter les  correctifs nécessaires à apporter.\\
+\textbf{Formation} : il est indispensable d’offrir un programme de formation permanant aux utilisateurs de l’entrepôt de données.\\
+Support technique : un entrepôt de données est considéré comme un environnement de production. Naturellement le support technique doit surveiller avec la plus grande vigilance les performances et les tendances en ce qui concerne la charge du système.\\
+\textbf{Management de l’évolution}: il faut toujours s’assurer que l’implémentation répond aux besoins de l’entreprise. Les revues systématiques à certain point de contrôle sont un outil clé pour détecter et définir les possibilités d’amélioration. En plus du suivi et de la maintenance du Data Warehouse, des demandes d’expansion sont envisageables pour de nouveaux besoins, de nouvelles données ou pour des améliorations.
+Ces travaux d’expansion sont à prévoir de façon à faciliter l’évolution du schéma du
+Data Warehouse.
+
+
+%\begin{figure}[h]
+%	\begin{center}
+%		\includegraphics[scale=0.85]{images/remuneration.png}
+%		\caption{Schéma de synthèse sur le coût d'un salarié}
+%		\label{synthese-cout-salarie}
+%	\end{center}
+%\end{figure}
 
 
