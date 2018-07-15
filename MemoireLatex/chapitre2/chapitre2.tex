@@ -1,31 +1,54 @@
-\chapter{PRESENTATION DE HOSTELINE}
+\chapter{LES SYSTÈMES DE GESTION HÔTELIÈRE}
+\section{LA GESTION HÔTELIÈRE ACTUELLE}
 
-\section{PRESENTATION TECHNIQUE  DE HOSTELINE}
+Avec des besoins technologiques grandissants, les hôteliers font face à de nouveaux défis, dont celui d’investir dans des systèmes de gestion performants. C’est dans un souci de compétitivité que l’inter connectivité entre les différentes interfaces prend de l’importance, même si la tâche peut s’avérer ardue. La justification de tels investissements demeure néanmoins un perpétuel défi pour les gestionnaires\\
+
+Bien que la plupart des établissements hôteliers dans le utilisent aujourd’hui des systèmes de gestion, ceux-ci sont presque tous dotés de fonctionnalités basiques comparativement à ce qui existe dans d’autres secteurs d’activité. Aujourd’hui, il existe de nouveaux outils appelés à devenir de véritables leviers de compétitivité des établissements hôteliers. On peut diviser les principaux systèmes de gestion en cinq catégories:
+\begin{list}{•}{ }
+\item base de données centrale: Property Management System (PMS);
+\item réservations: Central Reservation System (CRS);
+\item revenus: Revenue Management System (RMS);
+\item points de vente: Electronic Point of Sale (EPOS);
+\item Marketing: Customer Relationship Management (CRM)\\
+\end{list}
+
+Pour la gestion des opérations hôtelières, chaque département fonctionne avec un système différent. Le système PMS utilisé à la réception permet de gérer les activités quotidiennes (voir image ci-dessous), soit les arrivées et les départs des clients, la facturation, la gestion des chambres, etc. On s’en sert comme une centrale pour les systèmes des autres services afin de collecter toutes les informations des clients, notamment les factures du restaurant, des services aux chambres et des appels téléphoniques. Les systèmes PMS, CRS, RMS et CRM sont généralement connectés entre eux, ce qui permet de suivre les nouvelles réservations et de communiquer la disponibilité et les tarifs en temps réel.\\
+
+On constate également un grand nombre d’hôtels de la place qui utilise encore des systèmes de gestion manuel. De la facturation a la gestion des réservations tout est fait manuellement et sur papier.\\
+
+D’autre part les gestionnaires d’hôtel les plus averti ont eu vent des avantages du e-commerce et essaye de développer leurs activité grâce au service en ligne. Toute fois chaque hôtel possède son propre site qu’il présente individuellement à ses clients. Naviguer sur plusieurs sites web d’hôtel est extrêmement difficile et de la née le besoin de créer des plateformes qui ressemble un grand nombre d’hôtel ou les clients peuvent comparer les offres de chaque hôtel avant de s’engager dans une réservation. Hosteline se présente dans le registre des plateformes fédératrice d’hôtels tout comme booking.com et Jumia Travel qui vendent des produits qui appartient aux hôtels qui ont souscrit a leurs plateforme. On peut également lui donner la connotation de e-commerce dans le sens ou des clients achètent des produits et services par Hosteline.\\
+
+Le plus difficile avec les plateformes ou on vend les produits des tierces personnes est de permettre au vendeur d’entretenir la relation client et de fidéliser sa clientèle. Ceci d’autant plus que la plateforme a des objectifs qui passent par la fidélisation des clients mais cette fois ci en vers le site de vente. Pour permettre aux hôteliers d’entretenir la relation client avec leurs clients sur la plateforme, Hosteline a pensé des stratégies parmi lesquels un système décisionnel qui servira les hôteliers et leurs clients mais Hosteline et ses clients. Cela permet de rapprocher le client et le vendeur et permettre une meilleure fourniture de service et une augmentation du chiffre d'affaire pour chacune des entreprises.\\
+
+
+\section{PRÉSENTATION TECHNIQUE  DE HOSTELINE}
  Comme la majorité des projets informatiques, Hosteline a été conçu et réalisé selon un canevas avec des langages et méthodes de conception bien connu. En effet ce projet a été piloté par la méthodologie agile SCRUM (Annexe xx) avec le langage UML pour accompagne la conception. Après une description brève du langage UML, Les diagrammes qui ont servi à la conception de Hosteline seront présentés et commentés
  
  \subsection{LE LANGAGE UML}
-\textbf{ UML} (Unified Modeling Language, que l’on peut traduire par langage de modélisation unifié) est une notation permettant de modéliser un problème de façon standard. Ce langage est né de la fusion de plusieurs méthodes existant auparavant, et est devenu désormais la référence en terme de modélisation objet, à un tel point que sa connaissance est souvent nécessaire pour obtenir un poste de développeur objet. La modélisation consiste à créer une représentation simplifiée d’un problème : le modèle. Grâce au modèle il est possible de représenter simplement un problème, un concept et le simuler. La modélisation comporte deux composantes :\\
--	L’analyse, c’est-à-dire l’étude du problème\\
--	La conception, soit la mise au point d’une solution au problème\\
+ \textbf{UML} (Unified Modeling Language, que l’on peut traduire par langage de modélisation unifié) est une notation permettant de modéliser un problème de façon standard. Ce langage est né de la fusion de plusieurs méthodes existant auparavant, et est devenu désormais la référence en terme de modélisation objet, à un tel point que sa connaissance est souvent nécessaire pour obtenir un poste de développeur objet. La modélisation consiste à créer une représentation simplifiée d’un problème : le modèle. Grâce au modèle il est possible de représenter simplement un problème, un concept et le simuler. La modélisation comporte deux composantes :
+ \begin{list}{•}{ }
+ \item L’analyse, c’est-à-dire l’étude du problème
+ \item La conception, soit la mise au point d’une solution au problème\\
+ \end{list}
 
-Le méta modèle UML fournit une panoplie d’outils permettant de représenter l’ensemble des éléments du monde objet (classes, objets, ...) ainsi que les liens qui les relie. Toutefois, étant donné qu’une seule représentation est trop subjective, UML fournit un moyen astucieux permettant de représenter diverses projections d’une même représentation grâce aux vues. Une vue est constituée d’un ou plusieurs diagrammes. On distingue deux types de vues :\\
+Le méta modèle UML fournit une panoplie d’outils permettant de représenter l’ensemble des éléments du monde objet (classes, objets, ...) ainsi que les liens qui les relie. Toutefois, étant donné qu’une seule représentation est trop subjective, UML fournit un moyen astucieux permettant de représenter diverses projections d’une même représentation grâce aux vues. Une vue est constituée d’un ou plusieurs diagrammes. On distingue deux types de vues :
 
 i)	\textbf{Les vues statiques}, c’est-à-dire représentant le système physiquement
-	\begin{itemize}
+	\begin{list}{•}{ }
 		\item diagrammes d’objets
 		\item diagrammes de classes
 		\item diagrammes de cas d’utilisation
 		\item diagrammes de composants
-		\item diagrammes de déploiement
-	\end{itemize}
+		\item diagrammes de déploiement\\
+	\end{list}
 	 
 ii)	\textbf{Les vues dynamiques}, montrant le fonctionnement du système
-\begin{itemize}
+\begin{list}{•}{ }
 		\item diagrammes de séquence
 		\item diagrammes de collaboration
 		\item diagrammes d’états-transitions
 		\item diagrammes d’activités
-	\end{itemize}
+	\end{list}
 
 Mais en ce qui concerne notre cas d’étude présent, nous ne représenterons que les diagrammes utilisées lors de la conception de la plateforme Hosteline.
 
