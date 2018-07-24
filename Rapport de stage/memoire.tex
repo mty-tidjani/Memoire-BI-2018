@@ -1,0 +1,140 @@
+\documentclass[12pt,a4paper,oneside]{book}
+\input{package/package}
+
+
+\begin{document}
+
+
+\frontmatter %Entete du document
+\pagestyle{front} %style des en-têtes pour cette portion
+
+%\include{dedicaces/dedicaces}
+
+\include{remerciements/remerciements}
+
+
+\shorttableofcontents{Sommaire}{1}
+\addcontentsline{toc}{chapter}{Sommaire}
+
+
+\include{abreviations/abreviations}
+
+
+\renewcommand{\listfigurename}{Liste des figures}
+\listoffigures
+\addcontentsline{toc}{chapter}{Liste des figures}
+
+
+\listoftables
+\addcontentsline{toc}{chapter}{Liste des tableaux}
+
+
+\include{resume/resume}
+%\include{abstract/abstract}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+\mainmatter
+\pagestyle{main}
+
+\include{introduction/introduction}
+
+\part{ENVIRONNEMENT DE STAGE}
+
+\include{chapitre4/chapitre4} % Transformed to be part 1 content
+
+\part{ANALYSE ET CONCEPTION DU SYSTEME}
+
+\include{chapitre1/chapitre1}
+\include{chapitre2/chapitre2}
+
+\include{chapitre3/chapitre3}
+\include{conclusion/conclusion}
+
+\cleardoublepage % le corps du document est terminé
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%\backmatter
+\pagestyle{back}
+\renewcommand{\bibname}{Références} 
+
+\begin{thebibliography}{9}
+	
+	\bibitem{ref14} https://laravel.com/docs/5.4 11/04/2018 17:31
+	
+	\bibitem{ref15} https://stackoverflow.com/questions/34748981/laravel-5-2-cors-get-not-working-with-preflight-options 11/04/2018 17:31
+	
+	\bibitem{ref16} http://www.expertphp.in/article/api-authentication-using-jwt-in-laravel-5-4-tutorial-with-example 13/04/2018 17:31 
+	
+	\bibitem{ref17} https://github.com/tymondesigns/jwt-auth/issues/47 10/05/2018 14:04
+	
+	
+	
+	
+	
+	
+\end{thebibliography}
+
+\addcontentsline{toc}{chapter}{Références}
+
+
+
+
+
+
+\appendix
+\include{annexes/annexes}
+
+
+
+
+
+
+
+
+
+
+
+
+
+\renewcommand{\contentsname}{Table des matières} 
+\setcounter{tocdepth}{3}
+\tableofcontents
+\addcontentsline{toc}{chapter}{Table des matières}
+
+
+
+
+
+\end{document}

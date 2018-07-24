@@ -1,0 +1,135 @@
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage[french]{babel}
+\usepackage{listings} % pour insérer du code source
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{eso-pic} % nécessaire pour mettre des images en arrière plan
+\usepackage{array}	
+\usepackage{fancyhdr} % pour les en-têtes et pieds de pages
+\usepackage{fancybox}
+\usepackage{hyperref}
+\usepackage{layout}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{pifont}
+\usepackage{titlesec}
+\usepackage{color}
+\usepackage{rotating}
+%\usepackage[style=numeric]{biblatex}
+\usepackage[Glenn]{fncychap} % pour customiser le style du titre \chapter
+\usepackage{type1cm} % aussi pour les lettrines
+\usepackage{lettrine}
+\usepackage{longtable}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathmorphing}
+\usepackage{array,multirow,makecell}
+\usepackage{setspace}
+\usepackage{wrapfig}
+\usepackage{sidecap}
+\onehalfspacing % pour l'interligne
+\setcellgapes{1pt}
+\usepackage{array}
+\usepackage{minipage-marginpar}
+\usepackage{shorttoc} % Pour creer plusieurs tables de matieres
+\makegapedcells
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash }b{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash }b{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash }b{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+
+%customization des \textbullet
+\newcommand*{\tikzbullet}[2]{%
+  \setbox0=\hbox{\strut}%
+  \begin{tikzpicture}
+    \useasboundingbox (-.25em,0) rectangle (.25em,\ht0);
+    \filldraw[draw=#1,fill=#2] (0,0.5\ht0) circle[radius=.45em];
+  \end{tikzpicture}%
+}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%style front%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\fancypagestyle{front}{%
+        \fancyhf{}%on vide l'en-tête
+        \fancyfoot[C]{\thepage}
+        \renewcommand{\headrulewidth}{0pt}%trait horizontal pour l'en-tête
+        \renewcommand{\footrulewidth}{1pt}%trait horizontal pour le pied de page
+        }
+                
+                
+                
+                
+                
+                
+                
+                
+%%%%%%%%%%%%%%%%%%%style main%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\newcommand{\chaptertoc}[1]{\chapter*{#1}
+\markboth{\slshape\MakeUppercase{#1}}{\slshape\MakeUppercase{#1}}}
+
+        \fancypagestyle{main}{%
+                \fancyhf{}
+                \renewcommand{\chaptermark}[1]{\markboth{\chaptername\ \thechapter.\ ##1}{}} % redéfinition pour avoir ici les titres des chapitres des sections en minuscules
+                
+                
+                \pagestyle{fancy}
+                \renewcommand\headrulewidth{1pt}
+                \fancyhead[C]{CONCEPTION ET DEVELOPPEMENT D’UNE APPLICATION DE RESERVATION D’HOTEL EN LIGNE }
+                
+                
+                \fancyfoot[L]{\textbf{Rapport rédigé par MOMO TESSE Yannick Tidjani}}
+                \fancyfoot[R]{\thepage}%
+                \renewcommand{\headrulewidth}{1pt}%trait horizontal pour l'en-tête
+                \renewcommand{\footrulewidth}{1pt}%trait horizontal pour le pied de page
+                }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+%%%%%%%%%%%%%%%%%%%style pied%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+        \fancypagestyle{back}{%
+                \fancyhf{}%on vide l'en-tête
+                \fancyfoot[L]{\textbf{Rapport rédigé par MOMO TESSE Yannick Tidjani}}
+                \fancyfoot[R]{\thepage}%
+                \renewcommand{\headrulewidth}{0pt}%trait horizontal pour l'en-tête
+                \renewcommand{\footrulewidth}{1pt}%trait horizontal pour le pied de pages
+                }
+                
+                
+                
+                
+                
+                
+%%%%%%%%%%%%%%%%%%% Définition des couleurs %%%%%%%%%%%%%%%%%%%
+\definecolor{green1}{HTML}{556627}
+\definecolor{green2}{HTML}{B7CA79}
+\definecolor{green3}{HTML}{8FCF3C}
+\definecolor{green4}{HTML}{1D702D}
+\definecolor{green5}{HTML}{456B35}
+
+
+\definecolor{blue1}{HTML}{1370e9}
+\definecolor{blue2}{HTML}{2da9e9}
+
+
+
+
+
+
+

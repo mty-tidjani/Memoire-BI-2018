@@ -5,25 +5,41 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Architecture generale d'un data warehouse}}{6}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces A cube with three dimensions.[ Rainardi 2008].}}{7}{figure.1.2}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Exemple d'un mod\IeC {\`e}le en \IeC {\'e}toile \IeC {\guillemotleft } Dimensional star schema for campaign results data mart \IeC {\guillemotright }[ Rainardi 2008]}}{8}{figure.1.3}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Slicing}}{9}{figure.1.4}
-\contentsline {figure}{\numberline {1.5}{\ignorespaces Dicing}}{10}{figure.1.5}
-\contentsline {figure}{\numberline {1.6}{\ignorespaces illustration de l\IeC {\textquoteright }approche \IeC {\guillemotleft } Besoins d\IeC {\textquoteright }analyse \IeC {\guillemotright } gr\IeC {\^a}ce au cycle de vie dimensionnel de Kimball [Kimball, 2004].}}{11}{figure.1.6}
-\contentsline {figure}{\numberline {1.7}{\ignorespaces Illustration de l\IeC {\textquoteright }approche mixte.}}{13}{figure.1.7}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Architecture generale d'un data warehouse}}{7}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces A cube with three dimensions.[ Rainardi 2008].}}{8}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Exemple d'un mod\IeC {\`e}le en \IeC {\'e}toile \IeC {\guillemotleft } Dimensional star schema for campaign results data mart \IeC {\guillemotright }[ Rainardi 2008]}}{9}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Slicing}}{10}{figure.1.4}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Dicing}}{11}{figure.1.5}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces illustration de l\IeC {\textquoteright }approche \IeC {\guillemotleft } Besoins d\IeC {\textquoteright }analyse \IeC {\guillemotright } gr\IeC {\^a}ce au cycle de vie dimensionnel de Kimball [Kimball, 2004].}}{12}{figure.1.6}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces Illustration de l\IeC {\textquoteright }approche mixte.}}{14}{figure.1.7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Formalismes du diagramme de cas d'utilisation.}}{20}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de cas d'utilisation contenant deux des acteurs de Hosteline (Agrandi en Annexe XX)}}{21}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagramme de cas d'utilisation contenant l'acteur "Client" (Agrandi en Annexe XX)}}{22}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Formalismes du diagramme de classes.}}{23}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagramme de classes du syst\IeC {\`e}me (Agrandi en Annexe XX)}}{24}{figure.2.5}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces ERD du syst\IeC {\`e}me actuel (Agrandi en Annexe XX)}}{25}{figure.2.6}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Interface d\IeC {\textquoteright }inscription a Hosteline}}{26}{figure.2.7}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Interface de r\IeC {\'e}servations de Hosteline}}{27}{figure.2.8}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Formalismes du diagramme de cas d'utilisation.}}{21}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Diagramme de cas d'utilisation contenant deux des acteurs de Hosteline (Agrandi en Annexe XX)}}{22}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diagramme de cas d'utilisation contenant l'acteur "Client" (Agrandi en Annexe XX)}}{23}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Formalismes du diagramme de classes.}}{24}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Diagramme de classes du syst\IeC {\`e}me (Agrandi en Annexe XX)}}{25}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces ERD du syst\IeC {\`e}me actuel (Agrandi en Annexe XX)}}{26}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Interface d\IeC {\textquoteright }inscription a Hosteline}}{27}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Interface de r\IeC {\'e}servations de Hosteline}}{28}{figure.2.8}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Probl\IeC {\`e}mes et outils BI r\IeC {\'e}ponses.}}{36}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Regroupement des fournisseurs de solutions BI}}{37}{figure.4.2}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Probl\IeC {\`e}mes et outils BI r\IeC {\'e}ponses.}}{37}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Regroupement des fournisseurs de solutions BI}}{38}{figure.4.2}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces La suite Pentaho.}}{39}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces La suite Pentaho.}}{40}{figure.4.4}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Analyse des priorit\IeC {\'e}s de Hosteline.}}{43}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Dimension temps du volet "R\IeC {\'e}servation".}}{44}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Dimension client du volet "R\IeC {\'e}servation".}}{45}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Dimension hotel du volet "R\IeC {\'e}servation".}}{46}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Table des faits du volet "R\IeC {\'e}servation".}}{46}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Mod\IeC {\`e}le en \IeC {\'e}toile du volet "R\IeC {\'e}servation".}}{47}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Les agr\IeC {\'e}gats potentiels du volet "R\IeC {\'e}servation".}}{48}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Les agr\IeC {\'e}gats utiles du volet "R\IeC {\'e}servation".}}{49}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Comparaison des volet R\IeC {\'e}servations et Offres.}}{50}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Dimension offre du volet Offres.}}{50}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Mod\IeC {\`e}le en \IeC {\'e}toile du volet "Offres".}}{51}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Les agr\IeC {\'e}gats potentiels du volet "Offre".}}{51}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Les agr\IeC {\'e}gats utiles du volet "Offre".}}{52}{figure.5.13}
+\addvspace {10\p@ }
 \addvspace {10\p@ }

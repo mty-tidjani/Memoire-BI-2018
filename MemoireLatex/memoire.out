@@ -7,42 +7,42 @@
 \BOOKMARK [0][-]{chapter*.4}{R\351sum\351}{}% 7
 \BOOKMARK [0][-]{chapter*.5}{Abstract}{}% 8
 \BOOKMARK [0][-]{chapter*.5}{Introduction}{}% 9
-\BOOKMARK [-1][-]{part.1}{I \311tat de l\220art}{}% 10
-\BOOKMARK [0][-]{chapter.1}{Synth\350se Bibliographique}{part.1}% 11
-\BOOKMARK [1][-]{section.1.1}{Business Intelligence}{chapter.1}% 12
-\BOOKMARK [2][-]{subsection.1.1.1}{Introduction}{section.1.1}% 13
-\BOOKMARK [2][-]{subsection.1.1.2}{Les syst\350mes d\351cisionnels}{section.1.1}% 14
-\BOOKMARK [1][-]{section.1.2}{Le Data Warehouse}{chapter.1}% 15
-\BOOKMARK [2][-]{subsection.1.2.1}{D\351finition}{section.1.2}% 16
-\BOOKMARK [2][-]{subsection.1.2.2}{Historique}{section.1.2}% 17
+\BOOKMARK [-1][-]{part.1}{I \311TAT DE L'ART}{}% 10
+\BOOKMARK [0][-]{chapter.1}{REVUE DE LA LITT\311RATURE}{part.1}% 11
+\BOOKMARK [1][-]{section.1.1}{BUSINESS INTELLIGENCE}{chapter.1}% 12
+\BOOKMARK [2][-]{subsection.1.1.1}{INTRODUCTION}{section.1.1}% 13
+\BOOKMARK [2][-]{subsection.1.1.2}{SYST\310MES D\311CISIONNELS}{section.1.1}% 14
+\BOOKMARK [1][-]{section.1.2}{DATA WAREHOUSE}{chapter.1}% 15
+\BOOKMARK [2][-]{subsection.1.2.1}{ D\311FINITION}{section.1.2}% 16
+\BOOKMARK [2][-]{subsection.1.2.2}{HISTORIQUE}{section.1.2}% 17
 \BOOKMARK [2][-]{subsection.1.2.3}{ARCHITECTURE D\220UN DATA WAREHOUSE}{section.1.2}% 18
-\BOOKMARK [1][-]{section.1.3}{Mod\351lisation des donn\351es de l\220entrep\364t}{chapter.1}% 19
-\BOOKMARK [2][-]{subsection.1.3.1}{La mod\351lisation dimensionnelle et ses concepts}{section.1.3}% 20
+\BOOKMARK [1][-]{section.1.3}{MOD\311LISATION DES DONN\311ES DE L'ENTREP\324T}{chapter.1}% 19
+\BOOKMARK [2][-]{subsection.1.3.1}{MOD\311LISATION DIMENSIONNELLE ET SES CONCEPTS}{section.1.3}% 20
 \BOOKMARK [2][-]{subsection.1.3.2}{Diff\351rents mod\350les de la mod\351lisation dimensionnelle}{section.1.3}% 21
-\BOOKMARK [2][-]{subsection.1.3.3}{La navigation dans les donn\351es}{section.1.3}% 22
-\BOOKMARK [1][-]{section.1.4}{D\351marche de Construction d\220un Data Warehouse}{chapter.1}% 23
+\BOOKMARK [2][-]{subsection.1.3.3}{LA NAVIGATION DANS LES DONN\311ES}{section.1.3}% 22
+\BOOKMARK [1][-]{section.1.4}{D\311MARCHE DE CONSTRUCTION D\220UN DATA WAREHOUSE}{chapter.1}% 23
 \BOOKMARK [2][-]{subsection.1.4.1}{Mod\351lisation et conception du Data Warehouse}{section.1.4}% 24
-\BOOKMARK [2][-]{subsection.1.4.2}{Les phases de l'alimentation \253 E.T.L \273}{section.1.4}% 25
+\BOOKMARK [2][-]{subsection.1.4.2}{LES PHASES DE L'ALIMENTATION \253 E.T.L \273}{section.1.4}% 25
 \BOOKMARK [2][-]{subsection.1.4.3}{Mise en \234uvre du Data Warehouse}{section.1.4}% 26
-\BOOKMARK [2][-]{subsection.1.4.4}{Maintenance et expansion}{section.1.4}% 27
-\BOOKMARK [0][-]{chapter.2}{LES SYST\310MES DE GESTION H\324TELI\310RE}{part.1}% 28
-\BOOKMARK [1][-]{section.2.1}{LA GESTION H\324TELI\310RE ACTUELLE}{chapter.2}% 29
+\BOOKMARK [2][-]{subsection.1.4.4}{MAINTENANCE ET EXPANSION}{section.1.4}% 27
+\BOOKMARK [0][-]{chapter.2}{SYST\310MES DE GESTION H\324TELI\310RE}{part.1}% 28
+\BOOKMARK [1][-]{section.2.1}{GESTION H\324TELI\310RE AU CAMEROUN}{chapter.2}% 29
 \BOOKMARK [1][-]{section.2.2}{PR\311SENTATION TECHNIQUE DE HOSTELINE}{chapter.2}% 30
-\BOOKMARK [2][-]{subsection.2.2.1}{LE LANGAGE UML}{section.2.2}% 31
-\BOOKMARK [2][-]{subsection.2.2.2}{LE DIAGRAMME DE CAS D\220UTILISATION}{section.2.2}% 32
-\BOOKMARK [2][-]{subsection.2.2.3}{LE DIAGRAMME DE CLASSES}{section.2.2}% 33
-\BOOKMARK [2][-]{subsection.2.2.4}{LE DIAGRAMME D'ENTIT\311 ASSOCIATION}{section.2.2}% 34
+\BOOKMARK [2][-]{subsection.2.2.1}{LANGAGE UML}{section.2.2}% 31
+\BOOKMARK [2][-]{subsection.2.2.2}{DIAGRAMME DE CAS D\220UTILISATION}{section.2.2}% 32
+\BOOKMARK [2][-]{subsection.2.2.3}{DIAGRAMME DE CLASSES}{section.2.2}% 33
+\BOOKMARK [2][-]{subsection.2.2.4}{DIAGRAMME D'ENTIT\311 ASSOCIATION}{section.2.2}% 34
 \BOOKMARK [1][-]{section.2.3}{LE SYSTEME OPERATIONNEL ACTUEL}{chapter.2}% 35
 \BOOKMARK [2][-]{subsection.2.3.1}{INSCRIPTION}{section.2.3}% 36
 \BOOKMARK [2][-]{subsection.2.3.2}{LA RESERVATION}{section.2.3}% 37
 \BOOKMARK [2][-]{subsection.2.3.3}{ENREGISTREMENT HOTELS}{section.2.3}% 38
 \BOOKMARK [1][-]{section.2.4}{LA PROBL\311MATIQUE DU TH\310ME}{chapter.2}% 39
 \BOOKMARK [1][-]{section.2.5}{SOLUTIONS PROPOS\311ES}{chapter.2}% 40
-\BOOKMARK [-1][-]{part.2}{II Contribution}{}% 41
+\BOOKMARK [-1][-]{part.2}{II CONTRIBUTION}{}% 41
 \BOOKMARK [0][-]{chapter.3}{CAHIER DES CHARGES}{part.2}% 42
 \BOOKMARK [1][-]{section.3.1}{EXPRESSION DES BESOINS}{chapter.3}% 43
-\BOOKMARK [2][-]{subsection.3.1.1}{LES BESOINS FONCTIONNELS}{section.3.1}% 44
-\BOOKMARK [2][-]{subsection.3.1.2}{LES BESOINS NON FONCTIONNELS}{section.3.1}% 45
+\BOOKMARK [2][-]{subsection.3.1.1}{BESOINS FONCTIONNELS}{section.3.1}% 44
+\BOOKMARK [2][-]{subsection.3.1.2}{BESOINS NON FONCTIONNELS}{section.3.1}% 45
 \BOOKMARK [1][-]{section.3.2}{CONTRAINTES LI\311ES AU PROJET}{chapter.3}% 46
 \BOOKMARK [2][-]{subsection.3.2.1}{EXIGENCES DE DOCUMENTATION}{section.3.2}% 47
 \BOOKMARK [2][-]{subsection.3.2.2}{EXIGENCES DE QUALIT\311}{section.3.2}% 48
@@ -53,18 +53,23 @@
 \BOOKMARK [2][-]{subsection.3.3.2}{PLANIFICATION DU PROJET}{section.3.3}% 53
 \BOOKMARK [2][-]{subsection.3.3.3}{DIAGRAMME DE GANTT }{section.3.3}% 54
 \BOOKMARK [2][-]{subsection.3.3.4}{ESTIMATION DU COUT DE LA SOLUTION}{section.3.3}% 55
-\BOOKMARK [0][-]{chapter.4}{MISE EN \226UVRE DE LA SOLUTION}{part.2}% 56
-\BOOKMARK [1][-]{section.4.1}{CHOIX DES OUTILS}{chapter.4}% 57
-\BOOKMARK [2][-]{subsection.4.1.1}{CHOIX D'UN OUTIL BI}{section.4.1}% 58
-\BOOKMARK [2][-]{subsection.4.1.2}{CHOIX DU SGBD}{section.4.1}% 59
-\BOOKMARK [1][-]{section.4.2}{ANALYSE CONCEPTION}{chapter.4}% 60
-\BOOKMARK [1][-]{section.4.3}{CHOIX DES OUTILS}{chapter.4}% 61
-\BOOKMARK [1][-]{section.4.4}{IMPL\311MENTATION}{chapter.4}% 62
-\BOOKMARK [0][-]{section.4.4}{Conclusion}{part.2}% 63
-\BOOKMARK [0][-]{section.4.4}{R\351f\351rences}{part.2}% 64
-\BOOKMARK [0][-]{chapter.1}{titre annexe}{part.2}% 65
-\BOOKMARK [1][-]{section.1.1}{Presentation de INSBI}{chapter.1}% 66
-\BOOKMARK [2][-]{subsection.1.1.1}{MISSION}{section.1.1}% 67
-\BOOKMARK [2][-]{subsection.1.1.2}{PRESENTATION}{section.1.1}% 68
-\BOOKMARK [1][-]{section.1.2}{DIAGRAMMES UML}{chapter.1}% 69
-\BOOKMARK [0][-]{section.1.2}{Table des mati\350res}{part.2}% 70
+\BOOKMARK [0][-]{chapter.4}{CHOIX DES OUTILS}{part.2}% 56
+\BOOKMARK [1][-]{section.4.1}{CHOIX D'UN OUTIL BI}{chapter.4}% 57
+\BOOKMARK [2][-]{subsection.4.1.1}{Le choix d\220un fournisseur}{section.4.1}% 58
+\BOOKMARK [2][-]{subsection.4.1.2}{LES ENJEUX D\220UN BON CHOIX}{section.4.1}% 59
+\BOOKMARK [2][-]{subsection.4.1.3}{LE CHOIX FINAL}{section.4.1}% 60
+\BOOKMARK [1][-]{section.4.2}{CHOIX DU SGBD}{chapter.4}% 61
+\BOOKMARK [1][-]{section.4.3}{AUTRES OUTILS}{chapter.4}% 62
+\BOOKMARK [0][-]{chapter.5}{ANALYSE ET CONCEPTION}{part.2}% 63
+\BOOKMARK [1][-]{section.5.1}{ANALYSE}{chapter.5}% 64
+\BOOKMARK [2][-]{subsection.5.1.1}{PROCESSUS DE MOD\311LISATION}{section.5.1}% 65
+\BOOKMARK [2][-]{subsection.5.1.2}{CONCEPTION}{section.5.1}% 66
+\BOOKMARK [0][-]{chapter.6}{IMPL\311MENTATION}{part.2}% 67
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{part.2}% 68
+\BOOKMARK [0][-]{chapter.6}{R\351f\351rences}{part.2}% 69
+\BOOKMARK [0][-]{chapter.1}{titre annexe}{part.2}% 70
+\BOOKMARK [1][-]{section.1.1}{Presentation de INSBI}{chapter.1}% 71
+\BOOKMARK [2][-]{subsection.1.1.1}{MISSION}{section.1.1}% 72
+\BOOKMARK [2][-]{subsection.1.1.2}{PRESENTATION}{section.1.1}% 73
+\BOOKMARK [1][-]{section.1.2}{DIAGRAMMES UML}{chapter.1}% 74
+\BOOKMARK [0][-]{section.1.2}{Table des mati\350res}{part.2}% 75

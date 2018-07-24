@@ -1,7 +1,7 @@
-\chapter{Synthèse Bibliographique}
+\chapter{REVUE DE LA LITTÉRATURE}
 
-\section{Business Intelligence}
-	\subsection{Introduction}
+\section{BUSINESS INTELLIGENCE}
+	\subsection{INTRODUCTION}
   		\paragraph{}
   		Dans le monde les grandes entreprises dans leurs activités journalières produisent une quantité importante de données qui a long terme devient en quantité astronomiques. Le besoin d’exploiter ces données a des fin de pilotage des entreprises a fait naitre le Business Intelligence encore appelé Intelligence Economique ou encore Informatique décisionnel qui permet d’étudier l’environnement de l’entreprise aux moyens des données qu’elle possède. Les données étant en grande quantité, il faut le nettoyer, les structures avant de les stocker dans ce qu’on a appelé Data Warehouse (Entrepôt de données en français).
   
@@ -9,7 +9,7 @@
   Le concept de Data Warehouse, tel que connu aujourd’hui, est apparu pour la première  fois en 1980 ; l’idée consistait alors à réaliser une base de données destinée exclusivement au processus décisionnel. Les nouveaux besoins de l’entreprise, les quantités importantes de données produites par les systèmes opérationnels et l’apparition des technologies aptes à sa mise en œuvre ont contribué à l’apparition du concept « Data Warehouse » comme support aux systèmes décisionnels.
   
   
-	\subsection{Les systèmes décisionnels}
+	\subsection{SYSTÈMES DÉCISIONNELS}
   		\paragraph{}
   L’entrepôt de données est au centre du système décisionnel et sa raison d’être est la mise en place de ces systèmes décisionnels. Nous allons ici rappeler quelques définitions qui serviront ont mieux expliqué la suite.
   \paragraph{}
@@ -92,8 +92,8 @@
 	Ces différences font ressortir la nécessité de mettre en place un système répondant aux besoins décisionnels. Ce système n’est rien d’autre que le « Data Warehouse ».
 
 
-\section{Le Data Warehouse}
- \subsection{Définition}
+\section{DATA WAREHOUSE}
+ \subsection{ DÉFINITION}
  Bill Inmon définit le Data Warehouse, dans son livre considéré comme étant la référence dans le domaine ``Building the Data Warehouse'' [Inmon, 2002] comme suit:
  
 « Le Data Warehouse est une collection de données orientées sujet, intégrées, non volatiles et évolutives dans le temps, organisées pour le support d’un processus d’aide à la décision. »
@@ -105,7 +105,7 @@ Les paragraphes suivants illustrent les caractéristiques citées dans la défin
 « Every key structure in the data warehouse contains - implicitly or explicitly -an element of time » [Inmon, 2000].\\
 \textbf{Non volatiles} : c’est ce qui est, en quelque sorte la conséquence de l’historisation décrite précédemment. Une donnée dans un environnement opérationnel peut être mise à jour ou supprimée, de telles opérations n’existent pas dans un environnement Data Warehouse. Organisées pour le support d’un processus d’aide à la décision : Les données du Data Warehouse sont organisées de manière à permettre l’exécution des processus d’aide à la décision (Reporting, Data Mining…).
 
- \subsection{Historique}
+ \subsection{HISTORIQUE}
  	L’origine du concept « Data Warehouse » D.W (entrepôt de données en français) remonte aux années 80, durant lesquelles un intérêt croissant au système décisionnel a vu le jour, dû essentiellement à l’émergence des SGBD relationnel et la simplicité du modèle relationnel et la puissance offerte par le langage SQL, au début, le Data Warehouse n’était rien d’autre qu’une copie des données du système opérationnel prise de façon périodique, dédiée à un environnement de support à la prise de décision. Ainsi, les données étaient extraites du système opérationnel, stockées dans une nouvelle base de données «concept d’infocentre », le motif principal étant de répondre aux requêtes des décideurs sans pour autant altérer les performances des systèmes opérationnels. Le Data Warehouse, tel qu’on le connaît actuellement, n’est plus vu comme une copie ou un cumul de copies prises de façon périodique- des données du système opérationnel. Il est devenu une nouvelle source d’information, alimenté avec des données recueillies et consolidées des différentes sources internes et externes.
  
  \subsection{ARCHITECTURE D’UN DATA WAREHOUSE}
@@ -142,9 +142,9 @@ La figure ci-dessus Illustre la forme générale d’un data Warehouse que nous 
 Les derniers éléments de la figure font partie de la phase d’exploitation du data warehouse et seront détaillés plus bas dans le document.
 
 
-\section{Modélisation des données de l’entrepôt}
+\section{MODÉLISATION DES DONNÉES DE L'ENTREPÔT}
 
- \subsection{La modélisation dimensionnelle et ses concepts}
+ \subsection{MODÉLISATION DIMENSIONNELLE ET SES CONCEPTS}
  	Les Data Warehouse sont destinés à la mise en place de systèmes décisionnels. Ces systèmes, devant répondre à des objectifs différents des systèmes transactionnels, ont fait ressortir très vite la nécessité de recourir à un modèle de données simplifié et aisément compréhensible. La modélisation dimensionnelle permet cela. Elle consiste à considérer un sujet d’analyse comme un cube à plusieurs dimensions, offrant des vues en tranches ou des analyses selon différents axes.
  	
  \begin{figure}[h]
@@ -179,7 +179,7 @@ Les derniers éléments de la figure font partie de la phase d’exploitation du
 \textbf{Modèle en constellation} : Ce n'est rien d'autre que plusieurs modèles en étoile liés entre eux par des dimensions communes.
 
   
-  \subsection{La navigation dans les données}
+  \subsection{LA NAVIGATION DANS LES DONNÉES}
   
   \paragraph{}
   Une fois que le serveur OLAP a construit le cube multidimensionnel « ou simulé ce cube selon l’architecture du serveur », plusieurs opérations sont possibles sur ce dernier offrant ainsi la possibilité de naviguer dans les données qui le constituent. Ces opérations de navigation « Data Surfing » doivent être, d’une part, assez complexes pour adresser l’ensemble des données et, d’autre part, assez simples afin de permettre à l’utilisateur de circuler de manière libre et intuitive dans le modèle dimensionnel.\\
@@ -211,7 +211,7 @@ Afin de répondre à ces attentes, un ensemble de mécanismes est exploité, per
    
    
    
-\section{Démarche de Construction d’un Data Warehouse}   
+\section{DÉMARCHE DE CONSTRUCTION D’UN DATA WAREHOUSE}   
    Plusieurs chercheurs ou équipes de recherche ont essayé de proposer des démarches pour la réalisation d’un projet Data Warehouse, ces démarches se croisent essentiellement dans les étapes suivantes :
 \begin{list}{•}{ }
    \item Modélisation et conception du Data Warehouse,
@@ -324,7 +324,7 @@ Une combinaison des deux approches appelée hybride ou mixte peut s’avérer ef
 Cette approche consiste à construire des schémas dimensionnels à partir des structures des données du système opérationnel, et les valider par rapport aux besoins analytiques. Cette approche cumule les avantages et quelques inconvénients des deux approches déjà citées, telles que la complexité des sources de données et la difficulté quant à la détermination des besoins analytiques.
 
 
-\subsection{Les phases de l'alimentation « E.T.L »}
+\subsection{LES PHASES DE L'ALIMENTATION « E.T.L »}
 
 Les phases du processus E.T.L. représentent la mécanique d’alimentation du Data
 Warehouse. Ainsi elles se déroulent comme suit :\\
@@ -400,7 +400,7 @@ Au sens littéral du terme, le Data Mining signifie le forage de données. Le bu
 Le Data Warehouse constituera alors la première source de données sur laquelle s’exécutera le processus de découverte de connaissances. Dans la majeure partie du temps, l’entrepôt de données représente un pré requis indispensable à toute fouille de données.\\
 Le recours à ce genre de méthode est de plus en plus utilisé dans les entreprises modernes. Les applications et outils implémentant ces solutions sont rarement développés en interne. En effet, les entreprises préfèrent se reposer sur des valeurs sûres du marché afin d’exploiter au plus vite les données en leur possession.
 
- \subsection{Maintenance et expansion}
+ \subsection{MAINTENANCE ET EXPANSION}
  La mise en service du Data Warehouse ne signifie pas la fin du projet, car un projet
 Data Warehouse nécessite un suivi constant compte tenu des besoins d’optimisation de performance et ou d’expansion. Il est donc nécessaire d’investir dans les domaines suivants:\\
 \textbf{Support} : assurer un support aux utilisateurs pour leur faire apprécier l’utilisation de l’entrepôt de données. En outre, la relation directe avec les utilisateurs permet de détecter les  correctifs nécessaires à apporter.\\

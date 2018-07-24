@@ -6,92 +6,99 @@
 \contentsline {chapter}{Remerciements}{ii}{chapter*.2}
 \contentsline {chapter}{Sommaire}{iv}{chapter*.2}
 \contentsline {chapter}{Abr\IeC {\'e}viations}{v}{chapter*.3}
-\contentsline {chapter}{Liste des figures}{vi}{chapter*.3}
-\contentsline {chapter}{Liste des tableaux}{vii}{chapter*.3}
-\contentsline {chapter}{R\IeC {\'e}sum\IeC {\'e}}{viii}{chapter*.4}
-\contentsline {paragraph}{}{viii}{chapter*.4}
-\contentsline {chapter}{Abstract}{ix}{chapter*.5}
-\contentsline {paragraph}{}{ix}{chapter*.5}
+\contentsline {chapter}{Liste des figures}{vii}{chapter*.3}
+\contentsline {chapter}{Liste des tableaux}{viii}{chapter*.3}
+\contentsline {chapter}{R\IeC {\'e}sum\IeC {\'e}}{ix}{chapter*.4}
+\contentsline {paragraph}{}{ix}{chapter*.4}
+\contentsline {chapter}{Abstract}{x}{chapter*.5}
+\contentsline {paragraph}{}{x}{chapter*.5}
 \contentsline {chapter}{Introduction}{1}{chapter*.5}
 \contentsline {paragraph}{}{1}{chapter*.5}
 \contentsline {paragraph}{}{1}{chapter*.5}
-\contentsline {part}{I\hspace {1em}\IeC {\'E}tat de l\IeC {\textquoteright }art}{2}{part.1}
-\contentsline {chapter}{\numberline {1}Synth\IeC {\`e}se Bibliographique}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Business Intelligence}{3}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Introduction}{3}{subsection.1.1.1}
-\contentsline {paragraph}{}{3}{subsection.1.1.1}
-\contentsline {paragraph}{}{3}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Les syst\IeC {\`e}mes d\IeC {\'e}cisionnels}{3}{subsection.1.1.2}
-\contentsline {paragraph}{}{3}{subsection.1.1.2}
-\contentsline {paragraph}{}{3}{subsection.1.1.2}
+\contentsline {part}{I\hspace {1em}\IeC {\'E}TAT DE L'ART}{3}{part.1}
+\contentsline {chapter}{\numberline {1}REVUE DE LA LITT\IeC {\'E}RATURE}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}BUSINESS INTELLIGENCE}{4}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}INTRODUCTION}{4}{subsection.1.1.1}
+\contentsline {paragraph}{}{4}{subsection.1.1.1}
+\contentsline {paragraph}{}{4}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}SYST\IeC {\`E}MES D\IeC {\'E}CISIONNELS}{4}{subsection.1.1.2}
 \contentsline {paragraph}{}{4}{subsection.1.1.2}
 \contentsline {paragraph}{}{4}{subsection.1.1.2}
-\contentsline {paragraph}{}{4}{table.1.1}
-\contentsline {section}{\numberline {1.2}Le Data Warehouse}{5}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}D\IeC {\'e}finition}{5}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}Historique}{5}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}ARCHITECTURE D\IeC {\textquoteright }UN DATA WAREHOUSE}{6}{subsection.1.2.3}
-\contentsline {section}{\numberline {1.3}Mod\IeC {\'e}lisation des donn\IeC {\'e}es de l\IeC {\textquoteright }entrep\IeC {\^o}t}{7}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}La mod\IeC {\'e}lisation dimensionnelle et ses concepts}{7}{subsection.1.3.1}
-\contentsline {subsubsection}{Le concept des Faits}{7}{figure.1.2}
-\contentsline {subsubsection}{Le concept des Dimensions}{8}{figure.1.2}
-\contentsline {subsection}{\numberline {1.3.2}Diff\IeC {\'e}rents mod\IeC {\`e}les de la mod\IeC {\'e}lisation dimensionnelle}{8}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}La navigation dans les donn\IeC {\'e}es}{9}{subsection.1.3.3}
-\contentsline {paragraph}{}{9}{subsection.1.3.3}
-\contentsline {subsubsection}{Slice \& Dice}{9}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}D\IeC {\'e}marche de Construction d\IeC {\textquoteright }un Data Warehouse}{10}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Mod\IeC {\'e}lisation et conception du Data Warehouse}{10}{subsection.1.4.1}
-\contentsline {subsubsection}{Approche \IeC {\guillemotleft } Besoins d\IeC {\textquoteright }analyse \IeC {\guillemotright }}{11}{subsection.1.4.1}
-\contentsline {subsubsection}{Approche \IeC {\guillemotleft } Source de donn\IeC {\'e}es \IeC {\guillemotright }}{11}{table.1.2}
-\contentsline {paragraph}{\IeC {\textbullet }}{12}{table.1.3}
-\contentsline {subsubsection}{Approche mixte}{12}{table.1.3}
-\contentsline {paragraph}{}{12}{table.1.3}
-\contentsline {subsection}{\numberline {1.4.2}Les phases de l'alimentation \IeC {\guillemotleft } E.T.L \IeC {\guillemotright }}{12}{subsection.1.4.2}
-\contentsline {subsubsection}{Politiques de l\IeC {\textquoteright }alimentation}{14}{figure.1.7}
-\contentsline {paragraph}{}{14}{figure.1.7}
-\contentsline {subsection}{\numberline {1.4.3}Mise en \IeC {\oe }uvre du Data Warehouse}{14}{subsection.1.4.3}
-\contentsline {subsection}{\numberline {1.4.4}Maintenance et expansion}{15}{subsection.1.4.4}
-\contentsline {chapter}{\numberline {2}LES SYST\IeC {\`E}MES DE GESTION H\IeC {\^O}TELI\IeC {\`E}RE}{17}{chapter.2}
-\contentsline {section}{\numberline {2.1}LA GESTION H\IeC {\^O}TELI\IeC {\`E}RE ACTUELLE}{17}{section.2.1}
-\contentsline {section}{\numberline {2.2}PR\IeC {\'E}SENTATION TECHNIQUE DE HOSTELINE}{18}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}LE LANGAGE UML}{18}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}LE DIAGRAMME DE CAS D\IeC {\textquoteright }UTILISATION}{19}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}LE DIAGRAMME DE CLASSES}{23}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}LE DIAGRAMME D'ENTIT\IeC {\'E} ASSOCIATION}{25}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}LE SYSTEME OPERATIONNEL ACTUEL}{26}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}INSCRIPTION}{26}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}LA RESERVATION}{27}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}ENREGISTREMENT HOTELS}{27}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}LA PROBL\IeC {\'E}MATIQUE DU TH\IeC {\`E}ME}{28}{section.2.4}
-\contentsline {section}{\numberline {2.5}SOLUTIONS PROPOS\IeC {\'E}ES}{29}{section.2.5}
-\contentsline {part}{II\hspace {1em}Contribution}{30}{part.2}
-\contentsline {chapter}{\numberline {3}CAHIER DES CHARGES}{31}{chapter.3}
-\contentsline {section}{\numberline {3.1}EXPRESSION DES BESOINS}{31}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}LES BESOINS FONCTIONNELS}{31}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}LES BESOINS NON FONCTIONNELS}{32}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}CONTRAINTES LI\IeC {\'E}ES AU PROJET}{32}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}EXIGENCES DE DOCUMENTATION}{33}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}EXIGENCES DE QUALIT\IeC {\'E}}{33}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}CONTRAINTES TEMPORELLES}{33}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}CONTRAINTES MAT\IeC {\'E}RIEL ET LOGICIEL}{33}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}D\IeC {\'E}MARCHE DE R\IeC {\'E}ALISATION}{34}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}INTERVENANTS DU PROJET}{34}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}PLANIFICATION DU PROJET}{34}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}DIAGRAMME DE GANTT }{34}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}ESTIMATION DU COUT DE LA SOLUTION}{35}{subsection.3.3.4}
-\contentsline {chapter}{\numberline {4}MISE EN \IeC {\OE }UVRE DE LA SOLUTION}{36}{chapter.4}
-\contentsline {section}{\numberline {4.1}CHOIX DES OUTILS}{36}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}CHOIX D'UN OUTIL BI}{36}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}CHOIX DU SGBD}{38}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}ANALYSE CONCEPTION}{39}{section.4.2}
-\contentsline {section}{\numberline {4.3}CHOIX DES OUTILS}{39}{section.4.3}
-\contentsline {section}{\numberline {4.4}IMPL\IeC {\'E}MENTATION}{39}{section.4.4}
-\contentsline {chapter}{Conclusion}{40}{section.4.4}
-\contentsline {chapter}{R\IeC {\'e}f\IeC {\'e}rences}{42}{section.4.4}
-\contentsline {chapter}{\numberline {A}titre annexe}{43}{chapter.1}
-\contentsline {section}{\numberline {A.1}Presentation de INSBI}{43}{section.1.1}
-\contentsline {subsubsection}{CREATION}{43}{section.1.1}
-\contentsline {subsection}{\numberline {A.1.1}MISSION}{43}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {A.1.2}PRESENTATION}{43}{subsection.1.1.2}
-\contentsline {section}{\numberline {A.2}DIAGRAMMES UML}{44}{section.1.2}
-\contentsline {chapter}{Table des mati\IeC {\`e}res}{47}{section.1.2}
+\contentsline {paragraph}{}{5}{subsection.1.1.2}
+\contentsline {paragraph}{}{5}{subsection.1.1.2}
+\contentsline {paragraph}{}{5}{table.1.1}
+\contentsline {section}{\numberline {1.2}DATA WAREHOUSE}{6}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1} D\IeC {\'E}FINITION}{6}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}HISTORIQUE}{6}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}ARCHITECTURE D\IeC {\textquoteright }UN DATA WAREHOUSE}{7}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}MOD\IeC {\'E}LISATION DES DONN\IeC {\'E}ES DE L'ENTREP\IeC {\^O}T}{8}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}MOD\IeC {\'E}LISATION DIMENSIONNELLE ET SES CONCEPTS}{8}{subsection.1.3.1}
+\contentsline {subsubsection}{Le concept des Faits}{9}{figure.1.2}
+\contentsline {subsubsection}{Le concept des Dimensions}{9}{figure.1.2}
+\contentsline {subsection}{\numberline {1.3.2}Diff\IeC {\'e}rents mod\IeC {\`e}les de la mod\IeC {\'e}lisation dimensionnelle}{9}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}LA NAVIGATION DANS LES DONN\IeC {\'E}ES}{10}{subsection.1.3.3}
+\contentsline {paragraph}{}{10}{subsection.1.3.3}
+\contentsline {subsubsection}{Slice \& Dice}{10}{subsection.1.3.3}
+\contentsline {section}{\numberline {1.4}D\IeC {\'E}MARCHE DE CONSTRUCTION D\IeC {\textquoteright }UN DATA WAREHOUSE}{11}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Mod\IeC {\'e}lisation et conception du Data Warehouse}{11}{subsection.1.4.1}
+\contentsline {subsubsection}{Approche \IeC {\guillemotleft } Besoins d\IeC {\textquoteright }analyse \IeC {\guillemotright }}{12}{subsection.1.4.1}
+\contentsline {subsubsection}{Approche \IeC {\guillemotleft } Source de donn\IeC {\'e}es \IeC {\guillemotright }}{13}{table.1.2}
+\contentsline {paragraph}{\IeC {\textbullet }}{13}{table.1.3}
+\contentsline {subsubsection}{Approche mixte}{13}{table.1.3}
+\contentsline {paragraph}{}{13}{table.1.3}
+\contentsline {subsection}{\numberline {1.4.2}LES PHASES DE L'ALIMENTATION \IeC {\guillemotleft } E.T.L \IeC {\guillemotright }}{13}{subsection.1.4.2}
+\contentsline {subsubsection}{Politiques de l\IeC {\textquoteright }alimentation}{15}{figure.1.7}
+\contentsline {paragraph}{}{15}{figure.1.7}
+\contentsline {subsection}{\numberline {1.4.3}Mise en \IeC {\oe }uvre du Data Warehouse}{15}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.4}MAINTENANCE ET EXPANSION}{17}{subsection.1.4.4}
+\contentsline {chapter}{\numberline {2}SYST\IeC {\`E}MES DE GESTION H\IeC {\^O}TELI\IeC {\`E}RE}{18}{chapter.2}
+\contentsline {section}{\numberline {2.1}GESTION H\IeC {\^O}TELI\IeC {\`E}RE AU CAMEROUN}{18}{section.2.1}
+\contentsline {section}{\numberline {2.2}PR\IeC {\'E}SENTATION TECHNIQUE DE HOSTELINE}{19}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}LANGAGE UML}{19}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}DIAGRAMME DE CAS D\IeC {\textquoteright }UTILISATION}{20}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}DIAGRAMME DE CLASSES}{24}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}DIAGRAMME D'ENTIT\IeC {\'E} ASSOCIATION}{26}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}LE SYSTEME OPERATIONNEL ACTUEL}{27}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}INSCRIPTION}{27}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}LA RESERVATION}{28}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}ENREGISTREMENT HOTELS}{28}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}LA PROBL\IeC {\'E}MATIQUE DU TH\IeC {\`E}ME}{29}{section.2.4}
+\contentsline {section}{\numberline {2.5}SOLUTIONS PROPOS\IeC {\'E}ES}{30}{section.2.5}
+\contentsline {part}{II\hspace {1em}CONTRIBUTION}{31}{part.2}
+\contentsline {chapter}{\numberline {3}CAHIER DES CHARGES}{32}{chapter.3}
+\contentsline {section}{\numberline {3.1}EXPRESSION DES BESOINS}{32}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}BESOINS FONCTIONNELS}{32}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}BESOINS NON FONCTIONNELS}{33}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}CONTRAINTES LI\IeC {\'E}ES AU PROJET}{34}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}EXIGENCES DE DOCUMENTATION}{34}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}EXIGENCES DE QUALIT\IeC {\'E}}{34}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}CONTRAINTES TEMPORELLES}{34}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}CONTRAINTES MAT\IeC {\'E}RIEL ET LOGICIEL}{34}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}D\IeC {\'E}MARCHE DE R\IeC {\'E}ALISATION}{35}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}INTERVENANTS DU PROJET}{35}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}PLANIFICATION DU PROJET}{35}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}DIAGRAMME DE GANTT }{35}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}ESTIMATION DU COUT DE LA SOLUTION}{36}{subsection.3.3.4}
+\contentsline {chapter}{\numberline {4}CHOIX DES OUTILS}{37}{chapter.4}
+\contentsline {section}{\numberline {4.1}CHOIX D'UN OUTIL BI}{37}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Le choix d\IeC {\textquoteright }un fournisseur}{38}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}LES ENJEUX D\IeC {\textquoteright }UN BON CHOIX}{38}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}LE CHOIX FINAL}{39}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}CHOIX DU SGBD}{41}{section.4.2}
+\contentsline {section}{\numberline {4.3}AUTRES OUTILS}{41}{section.4.3}
+\contentsline {chapter}{\numberline {5}ANALYSE ET CONCEPTION}{42}{chapter.5}
+\contentsline {section}{\numberline {5.1}ANALYSE}{42}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}PROCESSUS DE MOD\IeC {\'E}LISATION}{42}{subsection.5.1.1}
+\contentsline {subsubsection}{Volet \IeC {\guillemotleft } R\IeC {\'e}servation \IeC {\guillemotright }}{44}{figure.5.1}
+\contentsline {subsubsection}{Volet OFFRES}{49}{figure.5.8}
+\contentsline {subsection}{\numberline {5.1.2}CONCEPTION}{52}{subsection.5.1.2}
+\contentsline {chapter}{\numberline {6}IMPL\IeC {\'E}MENTATION}{53}{chapter.6}
+\contentsline {chapter}{Conclusion}{54}{chapter.6}
+\contentsline {chapter}{R\IeC {\'e}f\IeC {\'e}rences}{56}{chapter.6}
+\contentsline {chapter}{\numberline {A}titre annexe}{57}{chapter.1}
+\contentsline {section}{\numberline {A.1}Presentation de INSBI}{57}{section.1.1}
+\contentsline {subsubsection}{CREATION}{57}{section.1.1}
+\contentsline {subsection}{\numberline {A.1.1}MISSION}{57}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {A.1.2}PRESENTATION}{57}{subsection.1.1.2}
+\contentsline {section}{\numberline {A.2}DIAGRAMMES UML}{58}{section.1.2}
+\contentsline {chapter}{Table des mati\IeC {\`e}res}{61}{section.1.2}

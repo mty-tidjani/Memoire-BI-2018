@@ -1,9 +1,9 @@
-\chapter{LES SYSTÈMES DE GESTION HÔTELIÈRE}
-\section{LA GESTION HÔTELIÈRE ACTUELLE}
+\chapter{SYSTÈMES DE GESTION HÔTELIÈRE}
+\section{GESTION HÔTELIÈRE AU CAMEROUN}
 
 Avec des besoins technologiques grandissants, les hôteliers font face à de nouveaux défis, dont celui d’investir dans des systèmes de gestion performants. C’est dans un souci de compétitivité que l’inter connectivité entre les différentes interfaces prend de l’importance, même si la tâche peut s’avérer ardue. La justification de tels investissements demeure néanmoins un perpétuel défi pour les gestionnaires\\
 
-Bien que la plupart des établissements hôteliers dans le utilisent aujourd’hui des systèmes de gestion, ceux-ci sont presque tous dotés de fonctionnalités basiques comparativement à ce qui existe dans d’autres secteurs d’activité. Aujourd’hui, il existe de nouveaux outils appelés à devenir de véritables leviers de compétitivité des établissements hôteliers. On peut diviser les principaux systèmes de gestion en cinq catégories:
+Bien que la plupart des établissements hôteliers dans le utilisent aujourd’hui des systèmes de gestion, ceux-ci sont presque tous dotés de fonctionnalités basiques comparativement à ce qui existe dans d’autres secteurs d’activité. Aujourd'hui, il existe de nouveaux outils appelés à devenir de véritables leviers de compétitivité des établissements hôteliers. On peut diviser les principaux systèmes de gestion en cinq catégories:
 \begin{list}{•}{ }
 \item base de données centrale: Property Management System (PMS);
 \item réservations: Central Reservation System (CRS);
@@ -24,7 +24,7 @@ Le plus difficile avec les plateformes ou on vend les produits des tierces perso
 \section{PRÉSENTATION TECHNIQUE  DE HOSTELINE}
  Comme la majorité des projets informatiques, Hosteline a été conçu et réalisé selon un canevas avec des langages et méthodes de conception bien connu. En effet ce projet a été piloté par la méthodologie agile SCRUM (Annexe xx) avec le langage UML pour accompagne la conception. Après une description brève du langage UML, Les diagrammes qui ont servi à la conception de Hosteline seront présentés et commentés
  
- \subsection{LE LANGAGE UML}
+ \subsection{LANGAGE UML}
  \textbf{UML} (Unified Modeling Language, que l’on peut traduire par langage de modélisation unifié) est une notation permettant de modéliser un problème de façon standard. Ce langage est né de la fusion de plusieurs méthodes existant auparavant, et est devenu désormais la référence en terme de modélisation objet, à un tel point que sa connaissance est souvent nécessaire pour obtenir un poste de développeur objet. La modélisation consiste à créer une représentation simplifiée d’un problème : le modèle. Grâce au modèle il est possible de représenter simplement un problème, un concept et le simuler. La modélisation comporte deux composantes :
  \begin{list}{•}{ }
  \item L’analyse, c’est-à-dire l’étude du problème
@@ -52,7 +52,7 @@ ii)	\textbf{Les vues dynamiques}, montrant le fonctionnement du système
 
 Mais en ce qui concerne notre cas d’étude présent, nous ne représenterons que les diagrammes utilisées lors de la conception de la plateforme Hosteline.
 
-\subsection{LE DIAGRAMME DE CAS D’UTILISATION}
+\subsection{DIAGRAMME DE CAS D’UTILISATION}
 
 Les \textbf{diagrammes de cas d'utilisation} sont utilisés pour donner une vision globale du comportement fonctionnel d'un système logiciel. Ils sont utiles pour des présentations auprès de la direction ou des acteurs d'un projet, mais pour le développement, les cas d'utilisation sont plus appropriés. Un cas d'utilisation représente une unité discrète d'interaction entre un utilisateur (humain ou machine) et un système. Il est une unité significative de travail. Dans un diagramme de cas d'utilisation, les utilisateurs sont appelés acteurs (actors), ils interagissent avec les cas d'utilisation (use cases)[Source Wikipedia].
 
@@ -84,7 +84,7 @@ L’étude de Hosteline dans la partie diagramme de class à donner deux diagram
 	\end{center}
 \end{figure}
 \cleardoublepage
-\subsection{LE DIAGRAMME DE CLASSES}
+\subsection{DIAGRAMME DE CLASSES}
 
 Le \textbf{diagramme de classes} est un schéma utilisé en génie logiciel pour présenter les classes et les interfaces des systèmes ainsi que les différentes relations entre celles-ci. Ce diagramme fait partie de la partie statique d'UML car il fait abstraction des aspects temporels et dynamiques.\\
 Une classe est un ensemble de fonctions et de données (attributs) qui sont liées ensemble par un champ sémantique. Les classes sont utilisées dans la programmation orientée objet. Elles permettent de modéliser un programme et ainsi de découper une tâche complexe en plusieurs petits travaux simples.\\
@@ -101,13 +101,13 @@ En ce qui concerne Hosteline, dans sa phase d’étude le diagramme de classe qu
 
 \begin{figure}[!htbp]
 	\begin{center}
-		\includegraphics[scale=0.30]{images/diag_classe.jpg}
+		\includegraphics[scale=0.35]{images/diag_classe.jpg}
 		\caption{Diagramme de classes du système (Agrandi en Annexe XX)}
 		\label{classe_diagramme}
 	\end{center}
 \end{figure}
 \cleardoublepage
-\subsection{LE DIAGRAMME D'ENTITÉ ASSOCIATION}
+\subsection{DIAGRAMME D'ENTITÉ ASSOCIATION}
 
 Encore appelé diagramme d’entité relation (Entity Relation Diagram)
 
@@ -180,7 +180,7 @@ Parmi les solutions que nous avons développées pour INSBI, on pouvait dénombr
 
 \item Face au besoin de \textbf{faire des offres localisé}, nous avons proposé de nous aider de donnée utilisateurs recueilli lors des réservations pour produire des représentations graphiques mettant en exergues les localités ou  les destinations et les taux de réservations correspondants. Grace aux chiffres représente par localité, les décideurs de Hosteline pourront a tout instant donné lancer des campagnes stratégiques qui leurs permet de faire un chiffre d’affaire plus grand.\\
 
-\item Le problème de \textbf{veiller sur l’environnement} étais le plus difficile à résoudre car celui-ci fessait intervenir des données issues de l’environnement externe a Hosteline. Apres avoir identifié ces sources de données qui étaient de nature divers nous avons décidé d’exploiter des outils de BI spécialisés dans le traitement de données. Ici il fallait consolider les données internes et externes à Hosteline pour pourvoir en informations les décideurs de Hosteline. Pour mettre ça en œuvre le choix de l’outil \textbf{Pentaho Data Integration} a fait l’unanimité. Ici contrairement aux autres problèmes plus haut, la solution est totalement détachée de la plateforme web et sera déployé sur un serveur local a l’entreprise.
+\item Le problème de \textbf{veiller sur l'environnement} étais le plus difficile à résoudre car celui-ci fessait intervenir des données issues de l'environnement externe a Hosteline. Apres avoir identifié ces sources de données qui étaient de nature divers nous avons décidé d’exploiter des outils de BI spécialisés dans le traitement de données. Ici il fallait consolider les données internes et externes à Hosteline pour pourvoir en informations les décideurs de Hosteline. Pour mettre ça en œuvre le choix de l'outil \textbf{Pentaho Data Integration} a fait l'unanimité. Ici contrairement aux autres problèmes plus haut, la solution est totalement détachée de la plateforme web et sera déployé sur un serveur local a l’entreprise.
 
 \end{list}
 

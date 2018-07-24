@@ -1,6 +1,5 @@
-\chapter{MISE EN ŒUVRE DE LA SOLUTION}
-\section{CHOIX DES OUTILS}
-\subsection{CHOIX D'UN OUTIL BI}
+\chapter{CHOIX DES OUTILS}
+\section{CHOIX D'UN OUTIL BI}
 Avant de mettre en place un système décisionnel en général le besoin née d’un ensemble de question que se pose le DSI. A chacune de ces questions correspond une réponse venant d’une partie ou un processus du BI. La figure suivant résume cette question que tentent de répondre tout système décisionnel.
 
 \begin{figure}[!htbp]
@@ -11,7 +10,7 @@ Avant de mettre en place un système décisionnel en général le besoin née d�
 	\end{center}
 \end{figure}
 
-\textbf{Le choix d’un fournisseur}\\
+\subsection{Le choix d’un fournisseur}
 
 Dans le marché de produits BI il existe  plusieurs critères de classement de fournisseurs. Nous les avons segmenté un deux grand groups (Les grands Fournisseur et les plus petit et nouveau fournisseurs).
 
@@ -30,9 +29,18 @@ Toutefois il existe un grand nombre de fournisseur qui offrent des outils spéci
    \item TALEND : Pour l’intégration de données (ETL)\\
 \end{list}
 
-L’un des facteurs qui a motivé notre choix dans ce cas est que PENTAHO s’interface facilement avec la majorité de ces solution qui traitent un seul processus BI.\\
+L’un des facteurs qui a motivé notre choix dans ce cas est que PENTAHO s’interface facilement avec la majorité de ces solution qui traitent un seul processus BI. Le tableau de la figure 4.2 fait un récapitulatif de quelques solutions BI qui nous ont semblés pertinentes.\\
 
-\textbf{LES ENJEUX D’UN BON CHOIX}\\
+\begin{figure}[!htbp]
+	\begin{center}
+		\includegraphics[scale=0.55]{images/compare_bi_vendors_2.png}
+		\caption{La suite Pentaho.}
+		\label{bi_tools_compare}
+	\end{center}
+\end{figure}
+
+
+\subsection{LES ENJEUX D’UN BON CHOIX}
 
 	Avec les solutions de BI qui existent déjà on fait face à un ensemble de difficulté qui ce pendant rendent le choix selon le contexte plus facile. Ces barrières sont les suivantes.
 	\begin{list}{•}{ }
@@ -42,7 +50,7 @@ L’un des facteurs qui a motivé notre choix dans ce cas est que PENTAHO s’in
 	   \item Cout de maintenance élevé : L’augmentation du cout de maintenance est dû au fait que il faut une main d’œuvre qualifié et de qualité parfois pour effectuer même les taches les plus dérisoires.\\
 	\end{list}
 	
-\textbf{LE CHOIX FINAL}\\
+\subsection{LE CHOIX FINAL}
 
 Le plus difficile dans les plus petits et nouveaux fournisseur est le fait de ne pas trouver facilement un logiciel qui gère l’ensemble des processus BI. Cette difficulté nous a fait converger vers un outil en particulier qui n’avait pas ce défaut. Notre choix ces porté sur PENTAHO pour les raison suivantes:
 \begin{list}{•}{ }
@@ -65,8 +73,8 @@ Tels sont les point qui ont confortés le choix de Pentaho en tant que solution 
 \end{figure}
 
 
-
-\subsection{CHOIX DU SGBD}
+\cleardoublepage
+\section{CHOIX DU SGBD}
 
 En termes de système de gestion de base de données notre choix s’est porté sur Postgresql car de par son atout majeur d’être très sécurisé il offre les avantages suivants :  
 \begin{list}{•}{ }
@@ -76,13 +84,7 @@ En termes de système de gestion de base de données notre choix s’est porté 
  \item Au niveau de la documentation : Postgresql est en forte expansion et sa documentation reste plus claire.
 \end{list}
 
-%\section{MISE EN ŒUVRE DU PROJET}
-\section{ANALYSE CONCEPTION}
-\section{CHOIX DES OUTILS}
-\section{IMPLÉMENTATION}
+\section{AUTRES OUTILS}
+\textbf{LARAVEL }: Laravel est un framework web open-source écrit en \textbf{PHP} respectant le principe modèle-vue-contrôleur et entièrement développé en programmation orientée objet. Laravel est distribué sous licence MIT, avec ses sources hébergées sur GitHub. Ce framework a été utilisé dans le développement de la partie administration de Hosteline. Nous avons développé des routines pour remplir notre Data Warehouse sur cette plateforme.\\
 
-
-
-
-
-
+\textbf{Angular} (communément appelé "Angular 2+" ou "Angular v2 et plus") est un cadriciel (framework) coté client open source basé sur \textbf{TypeScript} dirigée par l'équipe du projet Angular à Google et par une communauté de particuliers et de sociétés. Angular est une réécriture complète de \textbf{AngularJS}, cadriciel construit par la même équipe. La partie client de la plateforme est développé sur ce cadriciel. Sur le profile du client a été développé un tableau de bord selon les besoins spécifiés au début de notre etude.\\
