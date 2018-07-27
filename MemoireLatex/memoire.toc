@@ -33,13 +33,13 @@
 \contentsline {subsection}{\numberline {1.2.3}ARCHITECTURE D\IeC {\textquoteright }UN DATA WAREHOUSE}{7}{subsection.1.2.3}
 \contentsline {section}{\numberline {1.3}MOD\IeC {\'E}LISATION DES DONN\IeC {\'E}ES DE L'ENTREP\IeC {\^O}T}{8}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}MOD\IeC {\'E}LISATION DIMENSIONNELLE ET SES CONCEPTS}{8}{subsection.1.3.1}
-\contentsline {subsubsection}{Le concept des Faits}{9}{figure.1.2}
-\contentsline {subsubsection}{Le concept des Dimensions}{9}{figure.1.2}
+\contentsline {subsubsection}{Le concept des Faits}{8}{figure.1.2}
+\contentsline {subsubsection}{Le concept des Dimensions}{8}{figure.1.2}
 \contentsline {subsection}{\numberline {1.3.2}Diff\IeC {\'e}rents mod\IeC {\`e}les de la mod\IeC {\'e}lisation dimensionnelle}{9}{subsection.1.3.2}
-\contentsline {subsection}{\numberline {1.3.3}LA NAVIGATION DANS LES DONN\IeC {\'E}ES}{10}{subsection.1.3.3}
-\contentsline {paragraph}{}{10}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.3}LA NAVIGATION DANS LES DONN\IeC {\'E}ES}{9}{subsection.1.3.3}
+\contentsline {paragraph}{}{9}{subsection.1.3.3}
 \contentsline {subsubsection}{Slice \& Dice}{10}{subsection.1.3.3}
-\contentsline {section}{\numberline {1.4}D\IeC {\'E}MARCHE DE CONSTRUCTION D\IeC {\textquoteright }UN DATA WAREHOUSE}{11}{section.1.4}
+\contentsline {section}{\numberline {1.4}D\IeC {\'E}MARCHE DE CONSTRUCTION D\IeC {\textquoteright }UN DATA WAREHOUSE}{10}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Mod\IeC {\'e}lisation et conception du Data Warehouse}{11}{subsection.1.4.1}
 \contentsline {subsubsection}{Approche \IeC {\guillemotleft } Besoins d\IeC {\textquoteright }analyse \IeC {\guillemotright }}{12}{subsection.1.4.1}
 \contentsline {subsubsection}{Approche \IeC {\guillemotleft } Source de donn\IeC {\'e}es \IeC {\guillemotright }}{13}{table.1.2}
@@ -78,27 +78,30 @@
 \contentsline {subsection}{\numberline {3.3.1}INTERVENANTS DU PROJET}{35}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}PLANIFICATION DU PROJET}{35}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}DIAGRAMME DE GANTT }{35}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}ESTIMATION DU COUT DE LA SOLUTION}{36}{subsection.3.3.4}
 \contentsline {chapter}{\numberline {4}CHOIX DES OUTILS}{37}{chapter.4}
 \contentsline {section}{\numberline {4.1}CHOIX D'UN OUTIL BI}{37}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Le choix d\IeC {\textquoteright }un fournisseur}{38}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}LES ENJEUX D\IeC {\textquoteright }UN BON CHOIX}{38}{subsection.4.1.2}
 \contentsline {subsection}{\numberline {4.1.3}LE CHOIX FINAL}{39}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}CHOIX DU SGBD}{41}{section.4.2}
-\contentsline {section}{\numberline {4.3}AUTRES OUTILS}{41}{section.4.3}
+\contentsline {section}{\numberline {4.2}CHOIX DU SGBD}{40}{section.4.2}
+\contentsline {section}{\numberline {4.3}AUTRES OUTILS}{40}{section.4.3}
 \contentsline {chapter}{\numberline {5}ANALYSE ET CONCEPTION}{42}{chapter.5}
 \contentsline {section}{\numberline {5.1}ANALYSE}{42}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}PROCESSUS DE MOD\IeC {\'E}LISATION}{42}{subsection.5.1.1}
-\contentsline {subsubsection}{Volet \IeC {\guillemotleft } R\IeC {\'e}servation \IeC {\guillemotright }}{44}{figure.5.1}
-\contentsline {subsubsection}{Volet OFFRES}{49}{figure.5.8}
-\contentsline {subsection}{\numberline {5.1.2}CONCEPTION}{52}{subsection.5.1.2}
-\contentsline {chapter}{\numberline {6}IMPL\IeC {\'E}MENTATION}{53}{chapter.6}
-\contentsline {chapter}{Conclusion}{54}{chapter.6}
-\contentsline {chapter}{R\IeC {\'e}f\IeC {\'e}rences}{56}{chapter.6}
-\contentsline {chapter}{\numberline {A}titre annexe}{57}{chapter.1}
-\contentsline {section}{\numberline {A.1}Presentation de INSBI}{57}{section.1.1}
-\contentsline {subsubsection}{CREATION}{57}{section.1.1}
-\contentsline {subsection}{\numberline {A.1.1}MISSION}{57}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {A.1.2}PRESENTATION}{57}{subsection.1.1.2}
-\contentsline {section}{\numberline {A.2}DIAGRAMMES UML}{58}{section.1.2}
-\contentsline {chapter}{Table des mati\IeC {\`e}res}{61}{section.1.2}
+\contentsline {subsubsection}{Volet \IeC {\guillemotleft } R\IeC {\'e}servation \IeC {\guillemotright }}{42}{figure.5.1}
+\contentsline {subsubsection}{Volet OFFRES}{48}{figure.5.8}
+\contentsline {section}{\numberline {5.2}CONCEPTION}{51}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Liste des cubes}{51}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}PR\IeC {\'E}SENTATION DES DIMENSIONS}{53}{subsection.5.2.2}
+\contentsline {chapter}{\numberline {6}D\IeC {\'E}PLOIEMENT}{57}{chapter.6}
+\contentsline {section}{\numberline {6.1}PARTIE WEB}{57}{section.6.1}
+\contentsline {section}{\numberline {6.2}PARTIE DESKTOP}{59}{section.6.2}
+\contentsline {chapter}{Conclusion}{60}{figure.6.2}
+\contentsline {chapter}{R\IeC {\'e}f\IeC {\'e}rences}{61}{figure.6.2}
+\contentsline {chapter}{\numberline {A}titre annexe}{62}{chapter.1}
+\contentsline {section}{\numberline {A.1}Presentation de INSBI}{62}{section.1.1}
+\contentsline {subsubsection}{CREATION}{62}{section.1.1}
+\contentsline {subsection}{\numberline {A.1.1}MISSION}{62}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {A.1.2}PRESENTATION}{62}{subsection.1.1.2}
+\contentsline {section}{\numberline {A.2}DIAGRAMMES UML}{63}{section.1.2}
+\contentsline {chapter}{Table des mati\IeC {\`e}res}{66}{section.1.2}

@@ -1,10 +1,7 @@
 \chapter{ANALYSE ET CONCEPTION}
 
 \section{ANALYSE}
-
-
-Une fois les besoins des utilisateurs connu, nous pouvons commencer à concevoir les volets de notre data warehouse. Pour cela, nous avons eu recours à la modélisation dimensionnelle qui est souvent associé aux entrepôts de données compte tenu de ses avantages.\\
-
+Une fois les besoins des utilisateurs connu, nous pouvons commencer à concevoir les volets de notre data warehouse. Pour cela, nous avons eu recours à la modélisation dimensionnelle qui est souvent associé aux entrepôts de données compte tenu de ses avantages.
 Cependant, avant de se lancer dans la modélisation il est intéressant de classer les sujets récence selon la pertinence pour l’entreprise et la facilité de réalisation. Ce classement nous aidera à choisir l’activité à modéliser en premier lieu de manière à garantir des résultats satisfaisants pour l’entreprise.\\
 
 \subsection{PROCESSUS DE MODÉLISATION}
@@ -14,7 +11,7 @@ Cependant, avant de se lancer dans la modélisation il est intéressant de class
     \item Choix de l’activité a modéliser : ce choix se fait après classement des activités dans une matrice dite d’analyse des priorités [Kimball, 2004]. Cette matrice permet de connaître quelle activité choisir en premier. Le classement des sujets recensés, qui s’est fait en collaboration avec les décideurs de l’entreprise est illustre dans la figure suivante.
     \begin{figure}[!htbp]
 	\begin{center}
-		\includegraphics[scale=0.35]{images/priority.png}
+		\includegraphics[scale=0.40]{images/priority.png}
 		\caption{Analyse des priorités de Hosteline.}
 		\label{use_bi_tools}
 	\end{center}
@@ -26,7 +23,7 @@ Cependant, avant de se lancer dans la modélisation il est intéressant de class
     
  \end{list}
  
-\cleardoublepage
+
 \subsubsection{Volet « Réservation »}
 
 \textbf{a)	Présentation de l’activité “Réservation”}\\
@@ -75,7 +72,7 @@ La réservation présentée plus haut est une convention entre un client et un h
 		\caption{Dimension hotel du volet "Réservation".}
 		\label{use_bi_tools}
 	\end{center}
-	\end{figure}
+\end{figure}
 
 
 \textbf{d) Les mesurables}\\
@@ -170,7 +167,7 @@ Après la détection des dimensions de la nouvelle étoile, on procède à une m
 	\end{center}
 	\end{figure}
 
-\textbf{1 Dimension Offre}\\
+\textbf{Dimension Offre}\\]
  Cette dimension est primordiale pour une appréciation juste des indicateurs de ce modèle. Les axes d’étude qu’offre cette dimension sont mis en relief dans la figure qui suit. 
 
 \begin{figure}[!htbp]
@@ -212,11 +209,166 @@ Après la détection des dimensions de la nouvelle étoile, on procède à une m
 	\end{center}
 	\end{figure}
 	 
-\subsection{CONCEPTION}
+\section{CONCEPTION}
+
+
+ 
+
+
+Afin de faciliter l'analyse et la navigation dans les données, il est important que les cubes dimensionnels soient bien conçues et définis de manière claire pour une utilisation intuitive.\\
+
+    La conception des cubes dimensionnels passe par la définition des mesurables et des dimensions. Le but de la mise en place de ces cubes est d’offrir une représentation abstraite d'informations multidimensionnelles à des fins d’analyse. 
+
+
+\subsection{Liste des cubes}
+Dans ce qui suit nous allons dresser la liste des cubes à mettre en place. Pour chaque
+cube on donnera les dimensions participantes ainsi que les mesurables présents dans ces
+cubes.
 
 
 
+	\begin{longtable}{|p{0.15\textwidth}|p{0.35\textwidth}|p{0.4\textwidth}|}
+		\caption{Liste des cubes dimensionnels.} 
+		\label{Liste des cubes dimensionnels}
+		\\
+		
+		
+		\hline 
+		\textbf{Nom du cube} & 
+		\textbf{Mesurables (Indicateurs)} &
+		\textbf{Dimensions}
+		\\
+		
+		
+		\endfirsthead
+		\caption[]{Liste des cubes dimensionnels (suite).} 
+		\\
+		\hline 
+		\textbf{Nom du cube} & 
+		\textbf{Mesurables (Indicateurs)} &
+		\textbf{Dimensions}
+		\\
+		\hline
+		\endhead
+		\hline
+		\endfoot
+		\hline
+		
+		
+		\hline
+		Reservation &  
+		
+		\begin{description}
+		 \item ca\_plateforme
+		 \item ca\_hotel
+		 \end{description} &
+		 
+		 \begin{description}
+		 \item client
+		 \item temps
+		 \item type\_profile
+		 \item reductions
+		 \end{description}
+		\\ 
+		
+		\hline
+		Suivi des Offres &  
+		\begin{description}
+		 \item ca\_plateforme
+		 \item nombre\_hotels
+		 \item nombre\_reservations
+		 \end{description} &
+		\begin{description}
+		 \item offre
+		 \item temps
+		 \item reservation
+		 \item hotel
+		 \item client
+		 \end{description}
+		\\
+		
+		\hline
+		Suivi des hoteliers &  
+		\begin{description}
+		 \item ca\_reservation
+		 \item ca\_reservation\_promo
+		 \item nombre\_nuits
+		 \item nombre\_nuitée
+		 \item nombre\_chambre\_hotel
+		 \end{description} &
+		\begin{description}
+		 \item temps
+		 \item reservation
+		 \item hotel
+		 \item client
+		 \item reductions
+		 \end{description}
+		\\  
+		
+		\hline
+		facturation hotel &  
+		\begin{description}
+		 \item nombre\_hotels
+		 \end{description} &
+		\begin{description}
+		 \item temps
+		 \item reduction
+		 \item hotel
+		 \item client
+		 \item type\_profile
+		 \end{description}
+		\\
+		
+		\hline
+		Suivi des Offres &  
+		\begin{description}
+		 \item ca\_plateforme
+		 \item nombre\_hotels
+		 \item nombre\_reservations
+		 \end{description} &
+		\begin{description}
+		 \item offre
+		 \item temps
+		 \item reservation
+		 \item hotel
+		 \item client
+		 \end{description}
+		\\
+		
+		\hline 
+	\end{longtable} 
 
+\cleardoublepage
+\subsection{PRÉSENTATION DES DIMENSIONS}
+\begin{figure}[!htbp]
+	\begin{center}
+		\includegraphics[scale=0.85]{images/cube_reservation.png}
+		\caption{Cube dimensionnel « Suivi des reservations ».}
+		\label{use_bi_tools}
+	\end{center}
+\end{figure}
 
+\begin{figure}[!htbp]
+	\begin{center}
+		\includegraphics[scale=0.85]{images/cube_offre.png}
+		\caption{Cube dimensionnel « Suivi de offres ».}
+		\label{use_bi_tools}
+	\end{center}
+\end{figure}
 
+\begin{figure}[!htbp]
+	\begin{center}
+		\includegraphics[scale=0.85]{images/cube_hotelier.png}
+		\caption{Cube dimensionnel « Suivi des hoteliers ».}
+		\label{use_bi_tools}
+	\end{center}
+\end{figure}
+
+\begin{figure}[!htbp]
+	\begin{center}
+		\includegraphics[scale=0.85]{images/cube_recherche.png}
+		\caption{Cube dimensionnel « Recherche ».}
+		\label{use_bi_tools}
+	\end{center}
+\end{figure}
 
